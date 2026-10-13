@@ -26,3 +26,15 @@
 - `Textures/` : texture ที่ใช้
 
 เมื่อเพิ่มโมเดลหรือ texture ให้ commit ไฟล์ที่โปรแกรมต้องใช้ และเก็บแหล่งที่มาของทรัพยากร/ภาพแรงบันดาลใจไว้สำหรับการอ้างอิงตอนส่งงาน
+
+## เตรียมโมเดลด้วย Blender
+
+เลือกโมเดลที่สามารถแปลงเป็น mesh และ triangulate faces ได้ แล้ว Export เป็น Wavefront `.obj` โดยเลือกตัวเลือก Geometry ตามที่อาจารย์สอน:
+
+- UV Coordinates
+- Curves as NURBS
+- Triangulated Mesh
+- Apply Modifiers
+- Apply Transform
+
+ตรวจให้มี **Normals** ในไฟล์ที่ Export ด้วย เพราะ lighting model ใน Lab12 ต้องใช้ normal vector ตัวอ่าน OBJ ใน Lab10 ใช้ข้อมูล `v`, `vt`, `vn` และ `f`; ถ้าโมเดลมี curve/NURBS ให้แปลงส่วนที่จะวาดเป็น mesh ก่อน เพราะตัวอ่านนี้ไม่ได้วาดคำสั่ง NURBS โดยตรง หลัง Export ให้ทดลองโหลด `.obj` ในโปรแกรมจริงและตรวจ texture/ทิศทางของโมเดล

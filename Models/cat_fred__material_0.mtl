@@ -1,0 +1,14 @@
+# Blender 5.2.2 LTS MTL File: 'FutureMe.blend'
+# www.blender.org
+
+newmtl Material_0
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ../Textures/19_image_1.png
+map_Ke ../Textures/18_image_2.png
+map_Bump -bm 1.000000 ../Textures/21_image_3.png
+

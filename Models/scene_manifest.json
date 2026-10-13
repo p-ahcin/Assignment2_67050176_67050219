@@ -1,0 +1,572 @@
+{
+  "source": "../Blender/FutureMe.blend",
+  "settings": {
+    "export_selected_objects": true,
+    "export_uv": true,
+    "export_normals": true,
+    "export_triangulated_mesh": true,
+    "apply_modifiers": true,
+    "apply_transform": true,
+    "export_materials": true,
+    "export_animation": false,
+    "export_curves_as_nurbs": true,
+    "export_eval_mode": "DAG_EVAL_RENDER",
+    "forward_axis": "NEGATIVE_Z",
+    "up_axis": "Y",
+    "global_scale": 1.0,
+    "path_mode": "RELATIVE",
+    "export_pbr_extensions": false
+  },
+  "coordinate_note": "World transforms baked. OBJ uses -Z forward, Y up; Blender (x,y,z) becomes OBJ (x,z,-y). Use an identity model matrix for the exported scene placement.",
+  "parts": [
+    {
+      "obj": "Models/candle_left__material_003.obj",
+      "mtl": "Models/candle_left__material_003.mtl",
+      "category": "candle_left",
+      "material": "Material.003",
+      "source_objects": [
+        "Circle.003"
+      ],
+      "base_color": [
+        0.38248613476753235,
+        0.1997692584991455,
+        0.12116236984729767,
+        1.0
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 4260,
+      "uv": 5777,
+      "normals": 4047,
+      "triangles": 8580,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/candle_left__material_004.obj",
+      "mtl": "Models/candle_left__material_004.mtl",
+      "category": "candle_left",
+      "material": "Material.004",
+      "source_objects": [
+        "Circle.003"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 704,
+      "uv": 748,
+      "normals": 675,
+      "triangles": 1404,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/candle_left__material_005.obj",
+      "mtl": "Models/candle_left__material_005.mtl",
+      "category": "candle_left",
+      "material": "Material.005",
+      "source_objects": [
+        "Cylinder"
+      ],
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 64,
+      "uv": 133,
+      "normals": 64,
+      "triangles": 124,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/candle_left__material_007.obj",
+      "mtl": "Models/candle_left__material_007.mtl",
+      "category": "candle_left",
+      "material": "Material.007",
+      "source_objects": [
+        "Plane.038"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 40,
+      "uv": 4,
+      "normals": 10,
+      "triangles": 20,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/candle_right__material_003.obj",
+      "mtl": "Models/candle_right__material_003.mtl",
+      "category": "candle_right",
+      "material": "Material.003",
+      "source_objects": [
+        "Circle.001"
+      ],
+      "base_color": [
+        0.38248613476753235,
+        0.1997692584991455,
+        0.12116236984729767,
+        1.0
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 4260,
+      "uv": 5777,
+      "normals": 4046,
+      "triangles": 8580,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/candle_right__material_004.obj",
+      "mtl": "Models/candle_right__material_004.mtl",
+      "category": "candle_right",
+      "material": "Material.004",
+      "source_objects": [
+        "Circle.001"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 704,
+      "uv": 748,
+      "normals": 675,
+      "triangles": 1404,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/candle_right__material_005.obj",
+      "mtl": "Models/candle_right__material_005.mtl",
+      "category": "candle_right",
+      "material": "Material.005",
+      "source_objects": [
+        "Cylinder.005"
+      ],
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 64,
+      "uv": 133,
+      "normals": 64,
+      "triangles": 124,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/candle_right__material_007.obj",
+      "mtl": "Models/candle_right__material_007.mtl",
+      "category": "candle_right",
+      "material": "Material.007",
+      "source_objects": [
+        "Plane.001"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 40,
+      "uv": 4,
+      "normals": 10,
+      "triangles": 20,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/cat_american__material.obj",
+      "mtl": "Models/cat_american__material.mtl",
+      "category": "cat_american",
+      "material": "material",
+      "source_objects": [
+        "mesh_node"
+      ],
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "base_color_images": [
+        "Textures/15_base_color.png"
+      ],
+      "other_material_images": [
+        "Textures/14_emissive.png",
+        "Textures/15_base_color.png",
+        "Textures/16_metallic_roughness.png",
+        "Textures/17_normal.png"
+      ],
+      "vertices": 31452,
+      "uv": 31452,
+      "normals": 31450,
+      "triangles": 48700,
+      "primary_base_color_image": "Textures/15_base_color.png"
+    },
+    {
+      "obj": "Models/cat_black__material_105.obj",
+      "mtl": "Models/cat_black__material_105.mtl",
+      "category": "cat_black",
+      "material": "Material_105",
+      "source_objects": [
+        "sk_player_cat_lod0_Material #105_0"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [
+        "Textures/23_material_105_basecolor.png"
+      ],
+      "other_material_images": [
+        "Textures/23_material_105_basecolor.png"
+      ],
+      "vertices": 322,
+      "uv": 161,
+      "normals": 264,
+      "triangles": 608,
+      "primary_base_color_image": "Textures/23_material_105_basecolor.png"
+    },
+    {
+      "obj": "Models/cat_black__material_81.obj",
+      "mtl": "Models/cat_black__material_81.mtl",
+      "category": "cat_black",
+      "material": "Material_81",
+      "source_objects": [
+        "sk_player_cat_lod0_Material #81_0"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [
+        "Textures/22_material_81_basecolor.png"
+      ],
+      "other_material_images": [
+        "Textures/22_material_81_basecolor.png"
+      ],
+      "vertices": 3895,
+      "uv": 3612,
+      "normals": 3802,
+      "triangles": 6164,
+      "primary_base_color_image": "Textures/22_material_81_basecolor.png"
+    },
+    {
+      "obj": "Models/cat_black__material_93.obj",
+      "mtl": "Models/cat_black__material_93.mtl",
+      "category": "cat_black",
+      "material": "Material_93",
+      "source_objects": [
+        "sk_player_cat_lod0_Material #93_0"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [
+        "Textures/24_material_93_basecolor.png"
+      ],
+      "other_material_images": [
+        "Textures/24_material_93_basecolor.png"
+      ],
+      "vertices": 684,
+      "uv": 40,
+      "normals": 570,
+      "triangles": 600,
+      "primary_base_color_image": "Textures/24_material_93_basecolor.png"
+    },
+    {
+      "obj": "Models/cat_fred__material_0.obj",
+      "mtl": "Models/cat_fred__material_0.mtl",
+      "category": "cat_fred",
+      "material": "Material_0",
+      "source_objects": [
+        "mesh_0"
+      ],
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "base_color_images": [
+        "Textures/19_image_1.png"
+      ],
+      "other_material_images": [
+        "Textures/18_image_2.png",
+        "Textures/19_image_1.png",
+        "Textures/20_image_0.png",
+        "Textures/21_image_3.png"
+      ],
+      "vertices": 77770,
+      "uv": 70808,
+      "normals": 84200,
+      "triangles": 83041,
+      "primary_base_color_image": "Textures/19_image_1.png",
+      "baked_uv_transform": {
+        "scale": [
+          15.933255,
+          16.003016
+        ],
+        "offset": [
+          3.2647804e-05,
+          -15.003036
+        ]
+      }
+    },
+    {
+      "obj": "Models/coffin__material_0.obj",
+      "mtl": "Models/coffin__material_0.mtl",
+      "category": "coffin",
+      "material": "material_0",
+      "source_objects": [
+        "Object_3"
+      ],
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "base_color_images": [
+        "Textures/12_image_0.png"
+      ],
+      "other_material_images": [
+        "Textures/12_image_0.png",
+        "Textures/13_image_1.png"
+      ],
+      "vertices": 18307,
+      "uv": 17465,
+      "normals": 17188,
+      "triangles": 31844,
+      "primary_base_color_image": "Textures/12_image_0.png"
+    },
+    {
+      "obj": "Models/incense__material_002.obj",
+      "mtl": "Models/incense__material_002.mtl",
+      "category": "incense",
+      "material": "Material.002",
+      "source_objects": [
+        "Circle.002"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 12034,
+      "uv": 9921,
+      "normals": 12029,
+      "triangles": 24064,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/incense__stick.obj",
+      "mtl": "Models/incense__stick.mtl",
+      "category": "incense",
+      "material": "stick",
+      "source_objects": [
+        "Cylinder.001",
+        "Cylinder.002",
+        "Cylinder.003",
+        "Cylinder.004",
+        "Cylinder.007",
+        "Cylinder.008",
+        "Cylinder.009",
+        "Cylinder.010",
+        "Cylinder.012",
+        "Cylinder.014",
+        "Cylinder.015",
+        "Cylinder.016",
+        "Cylinder.017",
+        "Cylinder.018",
+        "Cylinder.019",
+        "Cylinder.020",
+        "Cylinder.021"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 544,
+      "uv": 1212,
+      "normals": 837,
+      "triangles": 1020,
+      "primary_base_color_image": null
+    },
+    {
+      "obj": "Models/platform__platform_natural_wood.obj",
+      "mtl": "Models/platform__platform_natural_wood.mtl",
+      "category": "platform",
+      "material": "Platform_Natural_Wood",
+      "source_objects": [
+        "3d-model"
+      ],
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "base_color_images": [
+        "Textures/01_natural_wooden_background.png"
+      ],
+      "other_material_images": [
+        "Textures/01_natural_wooden_background.png"
+      ],
+      "vertices": 21,
+      "uv": 40,
+      "normals": 6,
+      "triangles": 38,
+      "primary_base_color_image": "Textures/01_natural_wooden_background.png"
+    },
+    {
+      "obj": "Models/table__gold_marble.obj",
+      "mtl": "Models/table__gold_marble.mtl",
+      "category": "table",
+      "material": "Gold Marble",
+      "source_objects": [
+        "Marble.001"
+      ],
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "base_color_images": [
+        "Textures/05_marble_07_color.png",
+        "Textures/06_marble_07_ao.png"
+      ],
+      "other_material_images": [
+        "Textures/02_marble_07_height.png",
+        "Textures/03_marble_07_roughness.png",
+        "Textures/04_marble_07_normal_jpg.png",
+        "Textures/05_marble_07_color.png",
+        "Textures/06_marble_07_ao.png"
+      ],
+      "vertices": 2110,
+      "uv": 2745,
+      "normals": 2487,
+      "triangles": 3890,
+      "primary_base_color_image": "Textures/05_marble_07_color.png"
+    },
+    {
+      "obj": "Models/table__tauari_wood.obj",
+      "mtl": "Models/table__tauari_wood.mtl",
+      "category": "table",
+      "material": "Tauari wood",
+      "source_objects": [
+        "wood.001"
+      ],
+      "base_color": [
+        0.800000011920929,
+        0.800000011920929,
+        0.800000011920929,
+        1.0
+      ],
+      "base_color_images": [
+        "Textures/09_mdf_bp_tauari_guararapes_imagem_01_transformed.png"
+      ],
+      "other_material_images": [
+        "Textures/07_tauari_height.png",
+        "Textures/08_tauari_roughness.png",
+        "Textures/09_mdf_bp_tauari_guararapes_imagem_01_transformed.png"
+      ],
+      "vertices": 784,
+      "uv": 980,
+      "normals": 775,
+      "triangles": 1564,
+      "primary_base_color_image": "Textures/09_mdf_bp_tauari_guararapes_imagem_01_transformed.png"
+    },
+    {
+      "obj": "Models/table__unassigned.obj",
+      "mtl": "Models/table__unassigned.mtl",
+      "category": "table",
+      "material": "unassigned",
+      "source_objects": [
+        "Marble.001"
+      ],
+      "base_color": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "base_color_images": [],
+      "other_material_images": [],
+      "vertices": 1005,
+      "uv": 1125,
+      "normals": 1088,
+      "triangles": 1680,
+      "primary_base_color_image": null
+    }
+  ],
+  "missing_images": [
+    {
+      "image": "candle lit normals",
+      "original_path": "C:\\Users\\ASUS\\Downloads\\candle lit normals.png"
+    },
+    {
+      "image": "Candle-Flame-PNG-Images.png",
+      "original_path": "C:\\Users\\ASUS\\Downloads\\candle holder materials\\Candle-Flame-PNG-Images.png"
+    }
+  ],
+  "generated_uv_for_untextured_objects": [
+    "Circle.002",
+    "Cylinder.001",
+    "Cylinder.002",
+    "Cylinder.003",
+    "Cylinder.004",
+    "Cylinder.007",
+    "Cylinder.008",
+    "Cylinder.009",
+    "Cylinder.010",
+    "Cylinder.012",
+    "Cylinder.014",
+    "Cylinder.015",
+    "Cylinder.016",
+    "Cylinder.017",
+    "Cylinder.018",
+    "Cylinder.019",
+    "Cylinder.020",
+    "Cylinder.021"
+  ],
+  "source_blend_unchanged": true,
+  "texture_reference_validation": "All emitted MTL texture paths resolve to exported files.",
+  "material_note": "MTL cannot reproduce every Blender node effect. primary_base_color_image identifies the image for Lab12; ambient-occlusion mixing and PBR maps require additional shader code. Material parts with no image should use base_color or a white texture. Missing candle images remain listed and are not substituted."
+}

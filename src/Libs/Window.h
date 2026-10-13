@@ -14,7 +14,7 @@ public:
     Window(const Window&) = delete;
     Window& operator=(const Window&) = delete;
 
-    int initialise();
+    int initialise(bool visible = true);
 
     GLint getBufferWidth() const { return bufferWidth; }
     GLint getBufferHeight() const { return bufferHeight; }

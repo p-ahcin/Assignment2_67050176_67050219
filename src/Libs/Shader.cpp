@@ -1,3 +1,5 @@
+// จัดการ attribute ของ obj
+
 #include "Shader.h"
 
 #include <cstdio>

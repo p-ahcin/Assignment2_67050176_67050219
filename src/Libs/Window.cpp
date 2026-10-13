@@ -1,3 +1,5 @@
+// สร้างหน้าจอ
+
 #include "Window.h"
 
 #include <cstdio>
@@ -23,7 +25,7 @@ Window::~Window()
     glfwTerminate();
 }
 
-int Window::initialise()
+int Window::initialise(bool visible)
 {
     if (!glfwInit())
     {
@@ -35,6 +37,7 @@ int Window::initialise()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, glfwMajorVersion);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, glfwMinorVersion);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    glfwWindowHint(GLFW_VISIBLE, visible ? GLFW_TRUE : GLFW_FALSE);
 
 #ifdef __APPLE__
     // Required by macOS for OpenGL 3.2+ core contexts.
