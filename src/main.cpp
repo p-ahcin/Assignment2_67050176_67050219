@@ -35,6 +35,7 @@ std::vector<Shader*> shaderList;
 std::vector<GLuint> textureList;
 std::vector<glm::vec3> materialColors;
 std::vector<bool> clipAlphaList;
+std::vector<bool> emissiveList;
 
 const std::filesystem::path shaderDirectory =
     std::filesystem::u8path(OPENGL_STARTER_SHADER_DIR);
@@ -154,7 +155,8 @@ GLuint CreatePlainTexture()
 bool AddScenePart(const char* objFile,
                   const char* textureFile = "",
                   const glm::vec3& color = glm::vec3(1.0f),
-                  bool clipAlpha = false)
+                  bool clipAlpha = false,
+                  bool emissive = false)
 {
     GLuint texture = 0;
     if (textureFile[0] != '\0')
@@ -175,6 +177,7 @@ bool AddScenePart(const char* objFile,
     textureList.push_back(texture);
     materialColors.push_back(color);
     clipAlphaList.push_back(clipAlpha);
+    emissiveList.push_back(emissive);
 
     return true;
 }
@@ -274,6 +277,8 @@ bool LoadCandles()
 {
     const glm::vec3 holderColor(0.382486f, 0.199769f, 0.121162f);
     const glm::vec3 plainColor(0.8f);
+    //ตั้ง mesh เปลวเทียนให้เป็นสีส้ม
+    const glm::vec3 flameColor(1.0f, 0.38f, 0.06f);
 
     // เทียนฝั่งซ้าย
     if (!AddScenePart(
@@ -286,9 +291,9 @@ bool LoadCandles()
         "candle_left__material_005.obj", "", plainColor
     )) return false;
 
-    // เปลวไฟยัง texture ใช้สีพื้นชั่วคราว
+    // เปลวไฟใช้สีส้มและไม่รับแสงจาก shader
     if (!AddScenePart(
-        "candle_left__material_007.obj", "", plainColor
+        "candle_left__material_007.obj", "", flameColor, false, true
     )) return false;
 
     // เทียนฝั่งขวา
@@ -303,7 +308,7 @@ bool LoadCandles()
     )) return false;
 
     if (!AddScenePart(
-        "candle_right__material_007.obj", "", plainColor
+        "candle_right__material_007.obj", "", flameColor, false, true
     )) return false;
 
     return true;
@@ -371,6 +376,7 @@ void Cleanup()
 
     materialColors.clear();
     clipAlphaList.clear();
+    emissiveList.clear();
 }
 
 int main()
@@ -390,6 +396,13 @@ int main()
 
     glm::vec3 lightPos = glm::vec3(20.0f, 100.0f, 45.0f);
     glm::vec3 lightColor = glm::vec3(1.0f, 1.0f, 1.0f);
+
+    //แสงเทียน
+    const glm::vec3 candleLightPos[2] = {
+        glm::vec3(8.1f, 12.2f, 48.1f),
+        glm::vec3(-5.3f, 12.2f, 48.1f)
+    };
+    const glm::vec3 candleLightColor(1.0f, 0.55f, 0.2f);
     glm::vec3 cameraPos = initialCameraPos;
     glm::vec3 cameraTarget = sceneTarget;
     glm::vec3 cameraDirection = glm::normalize(cameraTarget - cameraPos);
@@ -419,7 +432,7 @@ int main()
         cameraRight = glm::normalize(glm::cross(cameraDirection, up));
         cameraUp = glm::normalize(glm::cross(cameraRight, cameraDirection));
 
-        float moveSpeed = 100.0f;
+        float moveSpeed = 20.0f;
         if (glfwGetKey(mainWindow.getWindow(), GLFW_KEY_W) == GLFW_PRESS)
         {
             cameraPos = cameraPos + cameraDirection * moveSpeed * deltaTime;
@@ -479,9 +492,13 @@ int main()
 
             glUniform3fv(shaderList[0]->GetUniformLocation("lightColor"), 1, glm::value_ptr(lightColor));
             glUniform3fv(shaderList[0]->GetUniformLocation("lightPos"), 1, glm::value_ptr(lightPos));
+            glUniform3fv(shaderList[0]->GetUniformLocation("candleLightPos[0]"), 1, glm::value_ptr(candleLightPos[0]));
+            glUniform3fv(shaderList[0]->GetUniformLocation("candleLightPos[1]"), 1, glm::value_ptr(candleLightPos[1]));
+            glUniform3fv(shaderList[0]->GetUniformLocation("candleLightColor"), 1, glm::value_ptr(candleLightColor));
             glUniform3fv(shaderList[0]->GetUniformLocation("viewPos"), 1, glm::value_ptr(cameraPos));
             glUniform3fv(shaderList[0]->GetUniformLocation("objectColor"), 1, glm::value_ptr(materialColors[i]));
             glUniform1i(shaderList[0]->GetUniformLocation("clipAlpha"), clipAlphaList[i]);
+            glUniform1i(shaderList[0]->GetUniformLocation("emissive"), emissiveList[i]);
 
             glm::mat4 model(1.0f);
 
