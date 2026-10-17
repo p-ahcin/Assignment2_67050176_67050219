@@ -1,0 +1,7054 @@
+{
+  "source": "../../Blender/FutureMe.blend",
+  "optimized_scene": "../../Blender/FutureMe_optimized.blend",
+  "axes": "Blender (x,y,z) -> OBJ (x,z,-y), scale 1; use identity model matrix",
+  "settings": {
+    "selected_objects": true,
+    "uv": true,
+    "normals": true,
+    "triangulated": true,
+    "apply_modifiers": true,
+    "apply_transform": true,
+    "materials": true
+  },
+  "groups": [
+    {
+      "name": "platform",
+      "original_triangles": 12,
+      "export_triangles": 12,
+      "parts": [
+        {
+          "obj": "Models/platform/01_unassigned.obj",
+          "mtl": "Models/platform/01_unassigned.mtl",
+          "material": "unassigned",
+          "texture": "Textures/platform/plain_white.png",
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "alpha_clip": false,
+          "triangles": 12,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 24,
+            "vt": 14,
+            "vn": 6,
+            "f": 12
+          },
+          "obj_bounds": [
+            [
+              -69.993515,
+              59.434143
+            ],
+            [
+              -2.774505,
+              0.208321
+            ],
+            [
+              3.258301,
+              140.54126
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "coffin2",
+      "original_triangles": 1514473,
+      "export_triangles": 346708,
+      "parts": [
+        {
+          "obj": "Models/coffin2/01_openskp_material_12.004.obj",
+          "mtl": "Models/coffin2/01_openskp_material_12.004.mtl",
+          "material": "openskp_material_12.004",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 748,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 2091,
+            "vt": 52,
+            "vn": 169,
+            "f": 748
+          },
+          "obj_bounds": [
+            [
+              -13.801728,
+              30.303879
+            ],
+            [
+              3.404622,
+              31.798948
+            ],
+            [
+              13.188178,
+              28.968811
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/02_openskp_material_17.004.obj",
+          "mtl": "Models/coffin2/02_openskp_material_17.004.mtl",
+          "material": "openskp_material_17.004",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 12237,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 36711,
+            "vt": 20363,
+            "vn": 3102,
+            "f": 12237
+          },
+          "obj_bounds": [
+            [
+              -26.712898,
+              -7.766878
+            ],
+            [
+              0.707542,
+              6.500431
+            ],
+            [
+              23.275471,
+              29.507668
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/03_openskp_material_17.005.obj",
+          "mtl": "Models/coffin2/03_openskp_material_17.005.mtl",
+          "material": "openskp_material_17.005",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 146844,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 440532,
+            "vt": 20363,
+            "vn": 23993,
+            "f": 146844
+          },
+          "obj_bounds": [
+            [
+              -19.759348,
+              31.327156
+            ],
+            [
+              0.827812,
+              34.75761
+            ],
+            [
+              11.174324,
+              31.522732
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/04_openskp_material_17.006.obj",
+          "mtl": "Models/coffin2/04_openskp_material_17.006.mtl",
+          "material": "openskp_material_17.006",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 12237,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 36711,
+            "vt": 20363,
+            "vn": 3145,
+            "f": 12237
+          },
+          "obj_bounds": [
+            [
+              -24.986069,
+              -6.040049
+            ],
+            [
+              5.768902,
+              11.56179
+            ],
+            [
+              21.722485,
+              27.954681
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/05_openskp_material_17.007.obj",
+          "mtl": "Models/coffin2/05_openskp_material_17.007.mtl",
+          "material": "openskp_material_17.007",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 12237,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 36711,
+            "vt": 20363,
+            "vn": 3326,
+            "f": 12237
+          },
+          "obj_bounds": [
+            [
+              12.381136,
+              31.327156
+            ],
+            [
+              8.516216,
+              14.030258
+            ],
+            [
+              19.508118,
+              26.567589
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/06_openskp_material_5.001.obj",
+          "mtl": "Models/coffin2/06_openskp_material_5.001.mtl",
+          "material": "openskp_material_5.001",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.47843137383461,
+            0.6000000238418579,
+            0.3529411852359772
+          ],
+          "alpha_clip": false,
+          "triangles": 15576,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 46728,
+            "vt": 3894,
+            "vn": 4794,
+            "f": 15576
+          },
+          "obj_bounds": [
+            [
+              -19.613861,
+              31.348101
+            ],
+            [
+              0.555283,
+              32.949127
+            ],
+            [
+              11.289711,
+              29.862942
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/07_openskp_material_5.002.obj",
+          "mtl": "Models/coffin2/07_openskp_material_5.002.mtl",
+          "material": "openskp_material_5.002",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.47843137383461,
+            0.6000000238418579,
+            0.3529411852359772
+          ],
+          "alpha_clip": false,
+          "triangles": 1298,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3894,
+            "vt": 3894,
+            "vn": 746,
+            "f": 1298
+          },
+          "obj_bounds": [
+            [
+              -26.580639,
+              -7.745934
+            ],
+            [
+              0.485092,
+              6.289772
+            ],
+            [
+              24.479176,
+              28.615288
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/08_openskp_material_5.003.obj",
+          "mtl": "Models/coffin2/08_openskp_material_5.003.mtl",
+          "material": "openskp_material_5.003",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.47843137383461,
+            0.6000000238418579,
+            0.3529411852359772
+          ],
+          "alpha_clip": false,
+          "triangles": 1298,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3894,
+            "vt": 3894,
+            "vn": 742,
+            "f": 1298
+          },
+          "obj_bounds": [
+            [
+              -24.853809,
+              -6.019104
+            ],
+            [
+              5.546452,
+              11.351131
+            ],
+            [
+              22.926189,
+              27.062302
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/09_openskp_material_5.004.obj",
+          "mtl": "Models/coffin2/09_openskp_material_5.004.mtl",
+          "material": "openskp_material_5.004",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.47843137383461,
+            0.6000000238418579,
+            0.3529411852359772
+          ],
+          "alpha_clip": false,
+          "triangles": 1298,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3894,
+            "vt": 3894,
+            "vn": 739,
+            "f": 1298
+          },
+          "obj_bounds": [
+            [
+              12.513396,
+              31.348101
+            ],
+            [
+              8.708939,
+              12.712267
+            ],
+            [
+              20.386192,
+              26.389671
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/10_openskp_material_60.obj",
+          "mtl": "Models/coffin2/10_openskp_material_60.mtl",
+          "material": "openskp_material_60",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.3294117748737335,
+            0.3294117748737335
+          ],
+          "alpha_clip": false,
+          "triangles": 2,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 4,
+            "vt": 4,
+            "vn": 1,
+            "f": 2
+          },
+          "obj_bounds": [
+            [
+              -22.80748,
+              22.863121
+            ],
+            [
+              27.936773,
+              27.936777
+            ],
+            [
+              9.268539,
+              24.636358
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/11_openskp_material_62.obj",
+          "mtl": "Models/coffin2/11_openskp_material_62.mtl",
+          "material": "openskp_material_62",
+          "texture": "Textures/coffin2/11_openskp_material_62_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 64,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 88,
+            "vt": 64,
+            "vn": 4,
+            "f": 64
+          },
+          "obj_bounds": [
+            [
+              -22.374584,
+              22.430168
+            ],
+            [
+              21.49172,
+              26.15023
+            ],
+            [
+              9.701431,
+              24.203463
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/coffin2/12_openskp_material_63.obj",
+          "mtl": "Models/coffin2/12_openskp_material_63.mtl",
+          "material": "openskp_material_63",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.0,
+            0.1764705926179886,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 13615,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 40556,
+            "vt": 55,
+            "vn": 6628,
+            "f": 13615
+          },
+          "obj_bounds": [
+            [
+              -29.209579,
+              32.136955
+            ],
+            [
+              0.002548,
+              32.707245
+            ],
+            [
+              11.219525,
+              30.040394
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/13_openskp_material_63.001.obj",
+          "mtl": "Models/coffin2/13_openskp_material_63.001.mtl",
+          "material": "openskp_material_63.001",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.0,
+            0.1764705926179886,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 66,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 198,
+            "vt": 3,
+            "vn": 66,
+            "f": 66
+          },
+          "obj_bounds": [
+            [
+              19.664312,
+              23.09639
+            ],
+            [
+              0.208085,
+              9.9041
+            ],
+            [
+              24.272448,
+              29.590252
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/14_openskp_material_64.obj",
+          "mtl": "Models/coffin2/14_openskp_material_64.mtl",
+          "material": "openskp_material_64",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.0,
+            0.1764705926179886,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 748,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 2091,
+            "vt": 52,
+            "vn": 161,
+            "f": 748
+          },
+          "obj_bounds": [
+            [
+              -13.801728,
+              30.303879
+            ],
+            [
+              3.404622,
+              31.798948
+            ],
+            [
+              13.188178,
+              28.968811
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/15_openskp_material_65.obj",
+          "mtl": "Models/coffin2/15_openskp_material_65.mtl",
+          "material": "openskp_material_65",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.11764705926179886,
+            0.2666666805744171,
+            0.03921568766236305
+          ],
+          "alpha_clip": false,
+          "triangles": 4212,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 12636,
+            "vt": 1025,
+            "vn": 2202,
+            "f": 4212
+          },
+          "obj_bounds": [
+            [
+              -17.342955,
+              28.264599
+            ],
+            [
+              1.670753,
+              33.233833
+            ],
+            [
+              11.505989,
+              30.247269
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/16_openskp_material_65.001.obj",
+          "mtl": "Models/coffin2/16_openskp_material_65.001.mtl",
+          "material": "openskp_material_65.001",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.11764705926179886,
+            0.2666666805744171,
+            0.03921568766236305
+          ],
+          "alpha_clip": false,
+          "triangles": 351,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1053,
+            "vt": 1025,
+            "vn": 336,
+            "f": 351
+          },
+          "obj_bounds": [
+            [
+              14.577856,
+              28.264599
+            ],
+            [
+              10.030191,
+              12.663397
+            ],
+            [
+              20.524757,
+              25.718918
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/17_openskp_material_65.002.obj",
+          "mtl": "Models/coffin2/17_openskp_material_65.002.mtl",
+          "material": "openskp_material_65.002",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.11764705926179886,
+            0.2666666805744171,
+            0.03921568766236305
+          ],
+          "alpha_clip": false,
+          "triangles": 351,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1053,
+            "vt": 1025,
+            "vn": 340,
+            "f": 351
+          },
+          "obj_bounds": [
+            [
+              -24.516178,
+              -10.829434
+            ],
+            [
+              1.871254,
+              6.050972
+            ],
+            [
+              24.616688,
+              28.418423
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/18_openskp_material_65.003.obj",
+          "mtl": "Models/coffin2/18_openskp_material_65.003.mtl",
+          "material": "openskp_material_65.003",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.11764705926179886,
+            0.2666666805744171,
+            0.03921568766236305
+          ],
+          "alpha_clip": false,
+          "triangles": 351,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1053,
+            "vt": 1025,
+            "vn": 334,
+            "f": 351
+          },
+          "obj_bounds": [
+            [
+              -22.789349,
+              -9.102605
+            ],
+            [
+              6.932613,
+              11.112331
+            ],
+            [
+              23.063702,
+              26.865437
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/19_openskp_material_66.obj",
+          "mtl": "Models/coffin2/19_openskp_material_66.mtl",
+          "material": "openskp_material_66",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.843137264251709,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 24324,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 72924,
+            "vt": 5339,
+            "vn": 12007,
+            "f": 24324
+          },
+          "obj_bounds": [
+            [
+              -17.44212,
+              28.308361
+            ],
+            [
+              1.545456,
+              34.135563
+            ],
+            [
+              11.146988,
+              31.074106
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/20_openskp_material_66.001.obj",
+          "mtl": "Models/coffin2/20_openskp_material_66.001.mtl",
+          "material": "openskp_material_66.001",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.843137264251709,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 2027,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 6077,
+            "vt": 5339,
+            "vn": 1802,
+            "f": 2027
+          },
+          "obj_bounds": [
+            [
+              14.487707,
+              28.308361
+            ],
+            [
+              10.065636,
+              13.307161
+            ],
+            [
+              20.49691,
+              26.013313
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/21_openskp_material_66.002.obj",
+          "mtl": "Models/coffin2/21_openskp_material_66.002.mtl",
+          "material": "openskp_material_66.002",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.843137264251709,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 2027,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 6077,
+            "vt": 5339,
+            "vn": 1794,
+            "f": 2027
+          },
+          "obj_bounds": [
+            [
+              -24.606327,
+              -10.785674
+            ],
+            [
+              1.839012,
+              6.488781
+            ],
+            [
+              24.609226,
+              28.935921
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/22_openskp_material_66.003.obj",
+          "mtl": "Models/coffin2/22_openskp_material_66.003.mtl",
+          "material": "openskp_material_66.003",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.843137264251709,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 2027,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 6077,
+            "vt": 5339,
+            "vn": 1768,
+            "f": 2027
+          },
+          "obj_bounds": [
+            [
+              -22.879498,
+              -9.058845
+            ],
+            [
+              6.900372,
+              11.55014
+            ],
+            [
+              23.05624,
+              27.382935
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/23_openskp_material_67.obj",
+          "mtl": "Models/coffin2/23_openskp_material_67.mtl",
+          "material": "openskp_material_67",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.11764705926179886,
+            0.2666666805744171,
+            0.03921568766236305
+          ],
+          "alpha_clip": false,
+          "triangles": 468,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1404,
+            "vt": 117,
+            "vn": 313,
+            "f": 468
+          },
+          "obj_bounds": [
+            [
+              -17.047758,
+              27.36451
+            ],
+            [
+              1.877548,
+              33.278877
+            ],
+            [
+              11.458458,
+              30.286455
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/24_openskp_material_67.001.obj",
+          "mtl": "Models/coffin2/24_openskp_material_67.001.mtl",
+          "material": "openskp_material_67.001",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.11764705926179886,
+            0.2666666805744171,
+            0.03921568766236305
+          ],
+          "alpha_clip": false,
+          "triangles": 39,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 117,
+            "vt": 117,
+            "vn": 38,
+            "f": 39
+          },
+          "obj_bounds": [
+            [
+              14.846217,
+              27.36451
+            ],
+            [
+              10.065636,
+              12.697411
+            ],
+            [
+              20.49691,
+              25.508568
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/25_openskp_material_67.002.obj",
+          "mtl": "Models/coffin2/25_openskp_material_67.002.mtl",
+          "material": "openskp_material_67.002",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.11764705926179886,
+            0.2666666805744171,
+            0.03921568766236305
+          ],
+          "alpha_clip": false,
+          "triangles": 39,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 117,
+            "vt": 117,
+            "vn": 38,
+            "f": 39
+          },
+          "obj_bounds": [
+            [
+              -24.247818,
+              -11.729525
+            ],
+            [
+              2.000195,
+              6.094032
+            ],
+            [
+              24.609226,
+              28.260887
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/26_openskp_material_67.003.obj",
+          "mtl": "Models/coffin2/26_openskp_material_67.003.mtl",
+          "material": "openskp_material_67.003",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.11764705926179886,
+            0.2666666805744171,
+            0.03921568766236305
+          ],
+          "alpha_clip": false,
+          "triangles": 39,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 117,
+            "vt": 117,
+            "vn": 39,
+            "f": 39
+          },
+          "obj_bounds": [
+            [
+              -22.520988,
+              -10.002695
+            ],
+            [
+              7.061554,
+              11.155392
+            ],
+            [
+              23.05624,
+              26.707901
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/27_openskp_material_68.obj",
+          "mtl": "Models/coffin2/27_openskp_material_68.mtl",
+          "material": "openskp_material_68",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 23856,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 71520,
+            "vt": 5222,
+            "vn": 11692,
+            "f": 23856
+          },
+          "obj_bounds": [
+            [
+              -17.44212,
+              28.308361
+            ],
+            [
+              1.545456,
+              34.135563
+            ],
+            [
+              11.146988,
+              31.074106
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/28_openskp_material_68.001.obj",
+          "mtl": "Models/coffin2/28_openskp_material_68.001.mtl",
+          "material": "openskp_material_68.001",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 1988,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5960,
+            "vt": 5222,
+            "vn": 1763,
+            "f": 1988
+          },
+          "obj_bounds": [
+            [
+              14.487707,
+              28.308361
+            ],
+            [
+              10.092106,
+              13.307161
+            ],
+            [
+              20.621193,
+              26.013313
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/29_openskp_material_68.002.obj",
+          "mtl": "Models/coffin2/29_openskp_material_68.002.mtl",
+          "material": "openskp_material_68.002",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 1988,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5960,
+            "vt": 5222,
+            "vn": 1756,
+            "f": 1988
+          },
+          "obj_bounds": [
+            [
+              -24.606327,
+              -10.785674
+            ],
+            [
+              1.839012,
+              6.488781
+            ],
+            [
+              24.897694,
+              28.935921
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/30_openskp_material_68.003.obj",
+          "mtl": "Models/coffin2/30_openskp_material_68.003.mtl",
+          "material": "openskp_material_68.003",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 1988,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5960,
+            "vt": 5222,
+            "vn": 1729,
+            "f": 1988
+          },
+          "obj_bounds": [
+            [
+              -22.879498,
+              -9.058845
+            ],
+            [
+              6.900372,
+              11.55014
+            ],
+            [
+              23.344707,
+              27.382935
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/31_openskp_material_69.obj",
+          "mtl": "Models/coffin2/31_openskp_material_69.mtl",
+          "material": "openskp_material_69",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 32628,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 97860,
+            "vt": 6823,
+            "vn": 17079,
+            "f": 32628
+          },
+          "obj_bounds": [
+            [
+              -17.299221,
+              28.10766
+            ],
+            [
+              1.760597,
+              34.265282
+            ],
+            [
+              11.229752,
+              31.18955
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/32_openskp_material_69.001.obj",
+          "mtl": "Models/coffin2/32_openskp_material_69.001.mtl",
+          "material": "openskp_material_69.001",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 2719,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 8155,
+            "vt": 6823,
+            "vn": 2467,
+            "f": 2719
+          },
+          "obj_bounds": [
+            [
+              14.617615,
+              28.10766
+            ],
+            [
+              10.358099,
+              13.404305
+            ],
+            [
+              20.9552,
+              26.022995
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/33_openskp_material_69.002.obj",
+          "mtl": "Models/coffin2/33_openskp_material_69.002.mtl",
+          "material": "openskp_material_69.002",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 2719,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 8155,
+            "vt": 6823,
+            "vn": 2436,
+            "f": 2719
+          },
+          "obj_bounds": [
+            [
+              -24.476421,
+              -10.986374
+            ],
+            [
+              2.229164,
+              6.446629
+            ],
+            [
+              25.211399,
+              29.03495
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/34_openskp_material_69.003.obj",
+          "mtl": "Models/coffin2/34_openskp_material_69.003.mtl",
+          "material": "openskp_material_69.003",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 2719,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 8155,
+            "vt": 6823,
+            "vn": 2432,
+            "f": 2719
+          },
+          "obj_bounds": [
+            [
+              -22.749592,
+              -9.259544
+            ],
+            [
+              7.290524,
+              11.507988
+            ],
+            [
+              23.658413,
+              27.481964
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/35_openskp_material_70.obj",
+          "mtl": "Models/coffin2/35_openskp_material_70.mtl",
+          "material": "openskp_material_70",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.46666666865348816,
+            0.6078431606292725,
+            0.18039216101169586
+          ],
+          "alpha_clip": false,
+          "triangles": 15576,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 46728,
+            "vt": 3894,
+            "vn": 4796,
+            "f": 15576
+          },
+          "obj_bounds": [
+            [
+              -19.613861,
+              31.348101
+            ],
+            [
+              0.555283,
+              32.949127
+            ],
+            [
+              11.289711,
+              29.862942
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/36_openskp_material_70.001.obj",
+          "mtl": "Models/coffin2/36_openskp_material_70.001.mtl",
+          "material": "openskp_material_70.001",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.46666666865348816,
+            0.6078431606292725,
+            0.18039216101169586
+          ],
+          "alpha_clip": false,
+          "triangles": 1298,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3894,
+            "vt": 3894,
+            "vn": 738,
+            "f": 1298
+          },
+          "obj_bounds": [
+            [
+              12.513396,
+              31.348101
+            ],
+            [
+              8.708939,
+              12.712267
+            ],
+            [
+              20.386192,
+              26.389671
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/37_openskp_material_70.002.obj",
+          "mtl": "Models/coffin2/37_openskp_material_70.002.mtl",
+          "material": "openskp_material_70.002",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.46666666865348816,
+            0.6078431606292725,
+            0.18039216101169586
+          ],
+          "alpha_clip": false,
+          "triangles": 1298,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3894,
+            "vt": 3894,
+            "vn": 746,
+            "f": 1298
+          },
+          "obj_bounds": [
+            [
+              -26.580639,
+              -7.745934
+            ],
+            [
+              0.485092,
+              6.289772
+            ],
+            [
+              24.479176,
+              28.615288
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/38_openskp_material_70.003.obj",
+          "mtl": "Models/coffin2/38_openskp_material_70.003.mtl",
+          "material": "openskp_material_70.003",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.46666666865348816,
+            0.6078431606292725,
+            0.18039216101169586
+          ],
+          "alpha_clip": false,
+          "triangles": 1298,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3894,
+            "vt": 3894,
+            "vn": 741,
+            "f": 1298
+          },
+          "obj_bounds": [
+            [
+              -24.853809,
+              -6.019104
+            ],
+            [
+              5.546452,
+              11.351131
+            ],
+            [
+              22.926189,
+              27.062302
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/39_openskp_material_75.obj",
+          "mtl": "Models/coffin2/39_openskp_material_75.mtl",
+          "material": "openskp_material_75",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9764705896377563,
+            0.9764705896377563
+          ],
+          "alpha_clip": false,
+          "triangles": 552,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1556,
+            "vt": 944,
+            "vn": 226,
+            "f": 552
+          },
+          "obj_bounds": [
+            [
+              -27.785828,
+              27.841393
+            ],
+            [
+              -2.365992,
+              19.278837
+            ],
+            [
+              4.29023,
+              29.614672
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/40_openskp_material_75.001.obj",
+          "mtl": "Models/coffin2/40_openskp_material_75.001.mtl",
+          "material": "openskp_material_75.001",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9764705896377563,
+            0.9764705896377563
+          ],
+          "alpha_clip": false,
+          "triangles": 552,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1556,
+            "vt": 944,
+            "vn": 226,
+            "f": 552
+          },
+          "obj_bounds": [
+            [
+              -27.785828,
+              27.841393
+            ],
+            [
+              -2.365992,
+              19.278837
+            ],
+            [
+              4.29023,
+              29.614672
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/coffin2/41_openskp_material_76.obj",
+          "mtl": "Models/coffin2/41_openskp_material_76.mtl",
+          "material": "openskp_material_76",
+          "texture": "Textures/coffin2/41_openskp_material_76_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 472,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 1168,
+            "vt": 818,
+            "vn": 176,
+            "f": 472
+          },
+          "obj_bounds": [
+            [
+              -23.456829,
+              23.512459
+            ],
+            [
+              19.278845,
+              27.936779
+            ],
+            [
+              8.61919,
+              25.285704
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/coffin2/42_openskp_material_77.obj",
+          "mtl": "Models/coffin2/42_openskp_material_77.mtl",
+          "material": "openskp_material_77",
+          "texture": "Textures/coffin2/plain_white.png",
+          "base_color": [
+            0.6666666865348816,
+            0.6901960968971252,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 534,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1256,
+            "vt": 848,
+            "vn": 176,
+            "f": 534
+          },
+          "obj_bounds": [
+            [
+              -23.456829,
+              23.512459
+            ],
+            [
+              19.278845,
+              27.936779
+            ],
+            [
+              8.61919,
+              25.285704
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "Flower1",
+      "original_triangles": 19604,
+      "export_triangles": 17368,
+      "parts": [
+        {
+          "obj": "Models/Flower1/01_openskp_material_63.002.obj",
+          "mtl": "Models/Flower1/01_openskp_material_63.002.mtl",
+          "material": "openskp_material_63.002",
+          "texture": "Textures/Flower1/plain_white.png",
+          "base_color": [
+            0.0,
+            0.1764705926179886,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1837,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 4095,
+            "vt": 1315,
+            "vn": 537,
+            "f": 1837
+          },
+          "obj_bounds": [
+            [
+              27.808134,
+              49.589695
+            ],
+            [
+              4.488029,
+              23.190174
+            ],
+            [
+              10.600832,
+              31.416273
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower1/02_openskp_material_69.004.obj",
+          "mtl": "Models/Flower1/02_openskp_material_69.004.mtl",
+          "material": "openskp_material_69.004",
+          "texture": "Textures/Flower1/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 8967,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 26805,
+            "vt": 13391,
+            "vn": 6465,
+            "f": 8967
+          },
+          "obj_bounds": [
+            [
+              29.574804,
+              47.527493
+            ],
+            [
+              5.28519,
+              24.456871
+            ],
+            [
+              12.446557,
+              30.821213
+            ]
+          ],
+          "coincident_faces_removed": 2086,
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower1/03_openskp_material_71.001.obj",
+          "mtl": "Models/Flower1/03_openskp_material_71.001.mtl",
+          "material": "openskp_material_71.001",
+          "texture": "Textures/Flower1/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9137254953384399,
+            0.8196078538894653
+          ],
+          "alpha_clip": false,
+          "triangles": 3562,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 10668,
+            "vt": 6129,
+            "vn": 2419,
+            "f": 3562
+          },
+          "obj_bounds": [
+            [
+              29.105614,
+              48.037724
+            ],
+            [
+              4.367117,
+              24.936445
+            ],
+            [
+              12.00059,
+              31.138248
+            ]
+          ],
+          "coincident_faces_removed": 26,
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower1/04_openskp_material_72.001.obj",
+          "mtl": "Models/Flower1/04_openskp_material_72.001.mtl",
+          "material": "openskp_material_72.001",
+          "texture": "Textures/Flower1/plain_white.png",
+          "base_color": [
+            0.1921568661928177,
+            0.24313725531101227,
+            0.10588235408067703
+          ],
+          "alpha_clip": false,
+          "triangles": 34,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 102,
+            "vt": 78,
+            "vn": 23,
+            "f": 34
+          },
+          "obj_bounds": [
+            [
+              42.105312,
+              43.603371
+            ],
+            [
+              6.958541,
+              8.462579
+            ],
+            [
+              29.773666,
+              30.821213
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower1/05_openskp_material_73.001.obj",
+          "mtl": "Models/Flower1/05_openskp_material_73.001.mtl",
+          "material": "openskp_material_73.001",
+          "texture": "Textures/Flower1/plain_white.png",
+          "base_color": [
+            0.9411764740943909,
+            0.9686274528503418,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 2046,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 6138,
+            "vt": 184,
+            "vn": 1067,
+            "f": 2046
+          },
+          "obj_bounds": [
+            [
+              37.168442,
+              49.309368
+            ],
+            [
+              4.8254,
+              16.44231
+            ],
+            [
+              21.277351,
+              31.737785
+            ]
+          ],
+          "coincident_faces_removed": 124,
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower1/06_openskp_material_74.001.obj",
+          "mtl": "Models/Flower1/06_openskp_material_74.001.mtl",
+          "material": "openskp_material_74.001",
+          "texture": "Textures/Flower1/plain_white.png",
+          "base_color": [
+            0.886274516582489,
+            0.45490196347236633,
+            0.3803921639919281
+          ],
+          "alpha_clip": false,
+          "triangles": 572,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1706,
+            "vt": 1161,
+            "vn": 435,
+            "f": 572
+          },
+          "obj_bounds": [
+            [
+              29.475513,
+              42.797653
+            ],
+            [
+              7.18712,
+              23.625414
+            ],
+            [
+              19.754368,
+              29.575836
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower1/07_openskp_material_75.002.obj",
+          "mtl": "Models/Flower1/07_openskp_material_75.002.mtl",
+          "material": "openskp_material_75.002",
+          "texture": "Textures/Flower1/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9764705896377563,
+            0.9764705896377563
+          ],
+          "alpha_clip": false,
+          "triangles": 350,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 872,
+            "vt": 558,
+            "vn": 142,
+            "f": 350
+          },
+          "obj_bounds": [
+            [
+              33.366459,
+              47.901299
+            ],
+            [
+              -2.101545,
+              15.719307
+            ],
+            [
+              16.159161,
+              29.791693
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "Flower2",
+      "original_triangles": 19604,
+      "export_triangles": 17368,
+      "parts": [
+        {
+          "obj": "Models/Flower2/01_openskp_material_63.002.obj",
+          "mtl": "Models/Flower2/01_openskp_material_63.002.mtl",
+          "material": "openskp_material_63.002",
+          "texture": "Textures/Flower2/plain_white.png",
+          "base_color": [
+            0.0,
+            0.1764705926179886,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1837,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 4095,
+            "vt": 1315,
+            "vn": 527,
+            "f": 1837
+          },
+          "obj_bounds": [
+            [
+              -49.134308,
+              -30.265686
+            ],
+            [
+              4.488029,
+              23.190174
+            ],
+            [
+              10.600832,
+              31.416273
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower2/02_openskp_material_69.004.obj",
+          "mtl": "Models/Flower2/02_openskp_material_69.004.mtl",
+          "material": "openskp_material_69.004",
+          "texture": "Textures/Flower2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 8967,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 26805,
+            "vt": 13391,
+            "vn": 6428,
+            "f": 8967
+          },
+          "obj_bounds": [
+            [
+              -49.303291,
+              -28.29903
+            ],
+            [
+              5.28519,
+              24.456871
+            ],
+            [
+              12.446557,
+              30.821213
+            ]
+          ],
+          "coincident_faces_removed": 2086,
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower2/03_openskp_material_71.001.obj",
+          "mtl": "Models/Flower2/03_openskp_material_71.001.mtl",
+          "material": "openskp_material_71.001",
+          "texture": "Textures/Flower2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9137254953384399,
+            0.8196078538894653
+          ],
+          "alpha_clip": false,
+          "triangles": 3562,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 10668,
+            "vt": 6129,
+            "vn": 2429,
+            "f": 3562
+          },
+          "obj_bounds": [
+            [
+              -48.170063,
+              -28.040985
+            ],
+            [
+              4.367117,
+              24.936445
+            ],
+            [
+              12.00059,
+              31.138248
+            ]
+          ],
+          "coincident_faces_removed": 26,
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower2/04_openskp_material_72.001.obj",
+          "mtl": "Models/Flower2/04_openskp_material_72.001.mtl",
+          "material": "openskp_material_72.001",
+          "texture": "Textures/Flower2/plain_white.png",
+          "base_color": [
+            0.1921568661928177,
+            0.24313725531101227,
+            0.10588235408067703
+          ],
+          "alpha_clip": false,
+          "triangles": 34,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 102,
+            "vt": 78,
+            "vn": 24,
+            "f": 34
+          },
+          "obj_bounds": [
+            [
+              -42.814671,
+              -41.316612
+            ],
+            [
+              6.958541,
+              8.462579
+            ],
+            [
+              29.773666,
+              30.821213
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower2/05_openskp_material_73.001.obj",
+          "mtl": "Models/Flower2/05_openskp_material_73.001.mtl",
+          "material": "openskp_material_73.001",
+          "texture": "Textures/Flower2/plain_white.png",
+          "base_color": [
+            0.9411764740943909,
+            0.9686274528503418,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 2046,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 6138,
+            "vt": 184,
+            "vn": 1067,
+            "f": 2046
+          },
+          "obj_bounds": [
+            [
+              -47.502693,
+              -29.747194
+            ],
+            [
+              4.8254,
+              16.44231
+            ],
+            [
+              21.277351,
+              31.737785
+            ]
+          ],
+          "coincident_faces_removed": 124,
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower2/06_openskp_material_74.001.obj",
+          "mtl": "Models/Flower2/06_openskp_material_74.001.mtl",
+          "material": "openskp_material_74.001",
+          "texture": "Textures/Flower2/plain_white.png",
+          "base_color": [
+            0.886274516582489,
+            0.45490196347236633,
+            0.3803921639919281
+          ],
+          "alpha_clip": false,
+          "triangles": 572,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1706,
+            "vt": 1161,
+            "vn": 438,
+            "f": 572
+          },
+          "obj_bounds": [
+            [
+              -45.423092,
+              -31.307533
+            ],
+            [
+              7.18712,
+              23.625414
+            ],
+            [
+              19.754368,
+              29.575836
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/Flower2/07_openskp_material_75.002.obj",
+          "mtl": "Models/Flower2/07_openskp_material_75.002.mtl",
+          "material": "openskp_material_75.002",
+          "texture": "Textures/Flower2/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9764705896377563,
+            0.9764705896377563
+          ],
+          "alpha_clip": false,
+          "triangles": 350,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 872,
+            "vt": 558,
+            "vn": 138,
+            "f": 350
+          },
+          "obj_bounds": [
+            [
+              -48.240757,
+              -32.566666
+            ],
+            [
+              -2.101545,
+              15.719307
+            ],
+            [
+              16.159161,
+              29.791693
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "wreath",
+      "original_triangles": 219971,
+      "export_triangles": 188291,
+      "parts": [
+        {
+          "obj": "Models/wreath/01_openskp_material_0.obj",
+          "mtl": "Models/wreath/01_openskp_material_0.mtl",
+          "material": "openskp_material_0",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9921568632125854,
+            0.9686274528503418
+          ],
+          "alpha_clip": false,
+          "triangles": 12540,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 34718,
+            "vt": 1290,
+            "vn": 8957,
+            "f": 12540
+          },
+          "obj_bounds": [
+            [
+              -50.022533,
+              -39.335022
+            ],
+            [
+              11.500763,
+              25.697437
+            ],
+            [
+              36.953342,
+              47.95713
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/02_openskp_material_1.obj",
+          "mtl": "Models/wreath/02_openskp_material_1.mtl",
+          "material": "openskp_material_1",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.843137264251709,
+            0.3921568691730499
+          ],
+          "alpha_clip": false,
+          "triangles": 306,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 918,
+            "vt": 66,
+            "vn": 243,
+            "f": 306
+          },
+          "obj_bounds": [
+            [
+              -53.834431,
+              -40.201305
+            ],
+            [
+              13.649363,
+              23.803244
+            ],
+            [
+              39.689949,
+              54.234295
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/03_openskp_material_10.obj",
+          "mtl": "Models/wreath/03_openskp_material_10.mtl",
+          "material": "openskp_material_10",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.8941176533699036,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 6999,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 19571,
+            "vt": 574,
+            "vn": 4203,
+            "f": 6999
+          },
+          "obj_bounds": [
+            [
+              -57.209766,
+              -40.438877
+            ],
+            [
+              15.013812,
+              25.538324
+            ],
+            [
+              40.802784,
+              56.894524
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/04_openskp_material_11.obj",
+          "mtl": "Models/wreath/04_openskp_material_11.mtl",
+          "material": "openskp_material_11",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.6000000238418579,
+            0.0,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 10488,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 31449,
+            "vt": 432,
+            "vn": 6815,
+            "f": 10488
+          },
+          "obj_bounds": [
+            [
+              -57.988811,
+              -40.387661
+            ],
+            [
+              12.771777,
+              25.707575
+            ],
+            [
+              39.006912,
+              55.989986
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/05_openskp_material_12.002.obj",
+          "mtl": "Models/wreath/05_openskp_material_12.002.mtl",
+          "material": "openskp_material_12.002",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 13936,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 40611,
+            "vt": 1527,
+            "vn": 11428,
+            "f": 13936
+          },
+          "obj_bounds": [
+            [
+              -59.971252,
+              -40.18642
+            ],
+            [
+              12.634315,
+              26.279413
+            ],
+            [
+              39.006912,
+              58.122849
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/06_openskp_material_13.obj",
+          "mtl": "Models/wreath/06_openskp_material_13.mtl",
+          "material": "openskp_material_13",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6941176652908325,
+            0.3921568691730499
+          ],
+          "alpha_clip": false,
+          "triangles": 1368,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 4104,
+            "vt": 108,
+            "vn": 1368,
+            "f": 1368
+          },
+          "obj_bounds": [
+            [
+              -58.051811,
+              -40.044399
+            ],
+            [
+              12.555304,
+              26.024042
+            ],
+            [
+              38.981895,
+              56.36591
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/07_openskp_material_14.obj",
+          "mtl": "Models/wreath/07_openskp_material_14.mtl",
+          "material": "openskp_material_14",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.8941176533699036,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 2736,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 8208,
+            "vt": 216,
+            "vn": 2736,
+            "f": 2736
+          },
+          "obj_bounds": [
+            [
+              -58.051811,
+              -40.044399
+            ],
+            [
+              12.555304,
+              26.024042
+            ],
+            [
+              38.981895,
+              56.36591
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/08_openskp_material_15.obj",
+          "mtl": "Models/wreath/08_openskp_material_15.mtl",
+          "material": "openskp_material_15",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.8941176533699036,
+            0.800000011920929,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1728,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5184,
+            "vt": 142,
+            "vn": 1730,
+            "f": 1728
+          },
+          "obj_bounds": [
+            [
+              -58.170319,
+              -40.100296
+            ],
+            [
+              15.111458,
+              26.310337
+            ],
+            [
+              38.703777,
+              56.565002
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/09_openskp_material_16.obj",
+          "mtl": "Models/wreath/09_openskp_material_16.mtl",
+          "material": "openskp_material_16",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            0.1921568661928177
+          ],
+          "alpha_clip": false,
+          "triangles": 1368,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 4104,
+            "vt": 216,
+            "vn": 1368,
+            "f": 1368
+          },
+          "obj_bounds": [
+            [
+              -46.59745,
+              -39.713997
+            ],
+            [
+              14.243998,
+              23.674973
+            ],
+            [
+              40.539955,
+              47.161301
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/10_openskp_material_17.002.obj",
+          "mtl": "Models/wreath/10_openskp_material_17.002.mtl",
+          "material": "openskp_material_17.002",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 5592,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 16325,
+            "vt": 457,
+            "vn": 5143,
+            "f": 5592
+          },
+          "obj_bounds": [
+            [
+              -57.403992,
+              -39.381073
+            ],
+            [
+              13.595404,
+              24.590084
+            ],
+            [
+              39.518093,
+              56.60939
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/11_openskp_material_18.obj",
+          "mtl": "Models/wreath/11_openskp_material_18.mtl",
+          "material": "openskp_material_18",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 2520,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 6993,
+            "vt": 144,
+            "vn": 1701,
+            "f": 2520
+          },
+          "obj_bounds": [
+            [
+              -56.01767,
+              -40.277481
+            ],
+            [
+              14.598388,
+              24.384375
+            ],
+            [
+              40.60392,
+              56.363049
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/12_openskp_material_19.obj",
+          "mtl": "Models/wreath/12_openskp_material_19.mtl",
+          "material": "openskp_material_19",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.6000000238418579,
+            1.0,
+            0.1921568661928177
+          ],
+          "alpha_clip": false,
+          "triangles": 1404,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3745,
+            "vt": 39,
+            "vn": 426,
+            "f": 1404
+          },
+          "obj_bounds": [
+            [
+              -56.032612,
+              -40.244278
+            ],
+            [
+              14.545961,
+              24.431686
+            ],
+            [
+              40.565666,
+              56.381474
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/13_openskp_material_2.obj",
+          "mtl": "Models/wreath/13_openskp_material_2.mtl",
+          "material": "openskp_material_2",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9921568632125854,
+            0.9686274528503418
+          ],
+          "alpha_clip": false,
+          "triangles": 10788,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 31686,
+            "vt": 1066,
+            "vn": 7377,
+            "f": 10788
+          },
+          "obj_bounds": [
+            [
+              -49.982723,
+              -38.589249
+            ],
+            [
+              11.435019,
+              26.128521
+            ],
+            [
+              37.333809,
+              47.744827
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/14_openskp_material_20.obj",
+          "mtl": "Models/wreath/14_openskp_material_20.mtl",
+          "material": "openskp_material_20",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.6000000238418579,
+            1.0,
+            0.1921568661928177
+          ],
+          "alpha_clip": false,
+          "triangles": 1224,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3105,
+            "vt": 36,
+            "vn": 403,
+            "f": 1224
+          },
+          "obj_bounds": [
+            [
+              -56.01767,
+              -40.277481
+            ],
+            [
+              14.598388,
+              24.384375
+            ],
+            [
+              40.60392,
+              56.363049
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/15_openskp_material_21.obj",
+          "mtl": "Models/wreath/15_openskp_material_21.mtl",
+          "material": "openskp_material_21",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.24313725531101227,
+            0.4156862795352936,
+            0.24313725531101227
+          ],
+          "alpha_clip": false,
+          "triangles": 2520,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 6264,
+            "vt": 120,
+            "vn": 2111,
+            "f": 2520
+          },
+          "obj_bounds": [
+            [
+              -57.949539,
+              -40.109486
+            ],
+            [
+              12.959586,
+              25.560862
+            ],
+            [
+              40.320694,
+              56.574955
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/16_openskp_material_22.obj",
+          "mtl": "Models/wreath/16_openskp_material_22.mtl",
+          "material": "openskp_material_22",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.800000011920929,
+            0.6000000238418579,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1728,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5184,
+            "vt": 141,
+            "vn": 1659,
+            "f": 1728
+          },
+          "obj_bounds": [
+            [
+              -58.047562,
+              -39.895248
+            ],
+            [
+              12.761744,
+              25.770802
+            ],
+            [
+              40.141525,
+              56.790947
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/17_openskp_material_23.obj",
+          "mtl": "Models/wreath/17_openskp_material_23.mtl",
+          "material": "openskp_material_23",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.7450980544090271,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 792,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 2016,
+            "vt": 24,
+            "vn": 495,
+            "f": 792
+          },
+          "obj_bounds": [
+            [
+              -57.943245,
+              -40.109486
+            ],
+            [
+              12.959586,
+              25.560862
+            ],
+            [
+              40.320694,
+              56.574955
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/18_openskp_material_24.obj",
+          "mtl": "Models/wreath/18_openskp_material_24.mtl",
+          "material": "openskp_material_24",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6000000238418579,
+            0.1921568661928177
+          ],
+          "alpha_clip": false,
+          "triangles": 2520,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 7342,
+            "vt": 119,
+            "vn": 2220,
+            "f": 2520
+          },
+          "obj_bounds": [
+            [
+              -57.443504,
+              -40.444305
+            ],
+            [
+              13.452843,
+              23.897032
+            ],
+            [
+              39.501316,
+              56.096622
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/19_openskp_material_25.obj",
+          "mtl": "Models/wreath/19_openskp_material_25.mtl",
+          "material": "openskp_material_25",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.8941176533699036,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 432,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1290,
+            "vt": 33,
+            "vn": 259,
+            "f": 432
+          },
+          "obj_bounds": [
+            [
+              -57.863937,
+              -39.597862
+            ],
+            [
+              12.739726,
+              24.830778
+            ],
+            [
+              39.159901,
+              57.193092
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/20_openskp_material_26.obj",
+          "mtl": "Models/wreath/20_openskp_material_26.mtl",
+          "material": "openskp_material_26",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.7450980544090271,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1944,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5832,
+            "vt": 209,
+            "vn": 1889,
+            "f": 1944
+          },
+          "obj_bounds": [
+            [
+              -57.425045,
+              -39.894829
+            ],
+            [
+              13.111429,
+              24.774061
+            ],
+            [
+              39.582092,
+              56.935024
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/21_openskp_material_27.obj",
+          "mtl": "Models/wreath/21_openskp_material_27.mtl",
+          "material": "openskp_material_27",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.20000000298023224,
+            0.10588235408067703,
+            0.07450980693101883
+          ],
+          "alpha_clip": false,
+          "triangles": 456,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1368,
+            "vt": 72,
+            "vn": 436,
+            "f": 456
+          },
+          "obj_bounds": [
+            [
+              -46.269524,
+              -40.485214
+            ],
+            [
+              15.403422,
+              22.611187
+            ],
+            [
+              40.843098,
+              46.532864
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/22_openskp_material_28.obj",
+          "mtl": "Models/wreath/22_openskp_material_28.mtl",
+          "material": "openskp_material_28",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.4941176474094391,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 3268,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 8876,
+            "vt": 154,
+            "vn": 1800,
+            "f": 3268
+          },
+          "obj_bounds": [
+            [
+              -56.104515,
+              -40.325268
+            ],
+            [
+              15.149058,
+              24.233181
+            ],
+            [
+              40.779404,
+              56.890545
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/23_openskp_material_29.obj",
+          "mtl": "Models/wreath/23_openskp_material_29.mtl",
+          "material": "openskp_material_29",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.0,
+            0.6000000238418579,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1260,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3141,
+            "vt": 120,
+            "vn": 1075,
+            "f": 1260
+          },
+          "obj_bounds": [
+            [
+              -47.531261,
+              -40.322018
+            ],
+            [
+              13.677078,
+              24.305971
+            ],
+            [
+              40.497231,
+              46.999573
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/24_openskp_material_3.obj",
+          "mtl": "Models/wreath/24_openskp_material_3.mtl",
+          "material": "openskp_material_3",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.6000000238418579,
+            0.6000000238418579,
+            0.11764705926179886
+          ],
+          "alpha_clip": false,
+          "triangles": 1496,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 2610,
+            "vt": 70,
+            "vn": 854,
+            "f": 1496
+          },
+          "obj_bounds": [
+            [
+              -56.951942,
+              -40.201305
+            ],
+            [
+              13.649363,
+              24.638817
+            ],
+            [
+              39.689949,
+              56.134472
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/25_openskp_material_30.obj",
+          "mtl": "Models/wreath/25_openskp_material_30.mtl",
+          "material": "openskp_material_30",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            0.1921568661928177
+          ],
+          "alpha_clip": false,
+          "triangles": 2628,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 7649,
+            "vt": 328,
+            "vn": 2388,
+            "f": 2628
+          },
+          "obj_bounds": [
+            [
+              -56.385551,
+              -40.311012
+            ],
+            [
+              13.676536,
+              24.991915
+            ],
+            [
+              40.497231,
+              57.009895
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/26_openskp_material_31.obj",
+          "mtl": "Models/wreath/26_openskp_material_31.mtl",
+          "material": "openskp_material_31",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.07450980693101883,
+            0.4000000059604645,
+            0.07450980693101883
+          ],
+          "alpha_clip": false,
+          "triangles": 528,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1584,
+            "vt": 13,
+            "vn": 209,
+            "f": 528
+          },
+          "obj_bounds": [
+            [
+              -57.018929,
+              -39.576241
+            ],
+            [
+              14.11807,
+              25.055817
+            ],
+            [
+              40.356373,
+              57.264202
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/27_openskp_material_32.obj",
+          "mtl": "Models/wreath/27_openskp_material_32.mtl",
+          "material": "openskp_material_32",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.0,
+            0.20000000298023224,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 528,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1486,
+            "vt": 13,
+            "vn": 225,
+            "f": 528
+          },
+          "obj_bounds": [
+            [
+              -57.018929,
+              -39.576241
+            ],
+            [
+              14.11807,
+              25.055817
+            ],
+            [
+              40.356373,
+              57.264202
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/28_openskp_material_33.obj",
+          "mtl": "Models/wreath/28_openskp_material_33.mtl",
+          "material": "openskp_material_33",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.3921568691730499,
+            0.3921568691730499
+          ],
+          "alpha_clip": false,
+          "triangles": 528,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 676,
+            "vt": 25,
+            "vn": 339,
+            "f": 528
+          },
+          "obj_bounds": [
+            [
+              -56.260704,
+              -40.644009
+            ],
+            [
+              15.131361,
+              23.743237
+            ],
+            [
+              40.878731,
+              55.808987
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/29_openskp_material_34.obj",
+          "mtl": "Models/wreath/29_openskp_material_34.mtl",
+          "material": "openskp_material_34",
+          "texture": "Textures/wreath/29_openskp_material_34_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 168,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 496,
+            "vt": 72,
+            "vn": 21,
+            "f": 168
+          },
+          "obj_bounds": [
+            [
+              -60.911362,
+              -38.703125
+            ],
+            [
+              0.059343,
+              28.417622
+            ],
+            [
+              36.14122,
+              58.362301
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/wreath/30_openskp_material_35.obj",
+          "mtl": "Models/wreath/30_openskp_material_35.mtl",
+          "material": "openskp_material_35",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.47843137383461
+          ],
+          "alpha_clip": false,
+          "triangles": 1584,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 4006,
+            "vt": 96,
+            "vn": 240,
+            "f": 1584
+          },
+          "obj_bounds": [
+            [
+              -57.852707,
+              -48.719666
+            ],
+            [
+              13.562419,
+              26.000498
+            ],
+            [
+              48.816795,
+              57.49519
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/31_openskp_material_36.obj",
+          "mtl": "Models/wreath/31_openskp_material_36.mtl",
+          "material": "openskp_material_36",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.47843137383461,
+            0.6000000238418579,
+            0.3529411852359772
+          ],
+          "alpha_clip": false,
+          "triangles": 616,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1845,
+            "vt": 30,
+            "vn": 328,
+            "f": 616
+          },
+          "obj_bounds": [
+            [
+              -60.925167,
+              -49.451988
+            ],
+            [
+              11.974131,
+              26.9632
+            ],
+            [
+              45.886246,
+              56.985607
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/32_openskp_material_37.obj",
+          "mtl": "Models/wreath/32_openskp_material_37.mtl",
+          "material": "openskp_material_37",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1260,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3780,
+            "vt": 198,
+            "vn": 1260,
+            "f": 1260
+          },
+          "obj_bounds": [
+            [
+              -58.51976,
+              -49.527813
+            ],
+            [
+              13.617922,
+              25.860548
+            ],
+            [
+              49.07579,
+              56.781731
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/33_openskp_material_38.obj",
+          "mtl": "Models/wreath/33_openskp_material_38.mtl",
+          "material": "openskp_material_38",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.5529412031173706,
+            0.3176470696926117,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 864,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 2592,
+            "vt": 142,
+            "vn": 864,
+            "f": 864
+          },
+          "obj_bounds": [
+            [
+              -58.170319,
+              -50.28706
+            ],
+            [
+              16.238205,
+              26.310337
+            ],
+            [
+              48.644043,
+              56.565002
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/34_openskp_material_4.obj",
+          "mtl": "Models/wreath/34_openskp_material_4.mtl",
+          "material": "openskp_material_4",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.3921568691730499,
+            0.3921568691730499
+          ],
+          "alpha_clip": false,
+          "triangles": 20274,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 57292,
+            "vt": 1434,
+            "vn": 14472,
+            "f": 20274
+          },
+          "obj_bounds": [
+            [
+              -57.632328,
+              -40.109486
+            ],
+            [
+              13.598111,
+              25.765772
+            ],
+            [
+              39.765629,
+              57.302437
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/35_openskp_material_42.obj",
+          "mtl": "Models/wreath/35_openskp_material_42.mtl",
+          "material": "openskp_material_42",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.545098066329956,
+            0.3921568691730499
+          ],
+          "alpha_clip": false,
+          "triangles": 216,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 646,
+            "vt": 34,
+            "vn": 129,
+            "f": 216
+          },
+          "obj_bounds": [
+            [
+              -58.278301,
+              -48.902538
+            ],
+            [
+              13.331314,
+              25.163334
+            ],
+            [
+              48.744724,
+              57.21497
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/36_openskp_material_43.obj",
+          "mtl": "Models/wreath/36_openskp_material_43.mtl",
+          "material": "openskp_material_43",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.800000011920929,
+            0.3176470696926117,
+            0.15294118225574493
+          ],
+          "alpha_clip": false,
+          "triangles": 216,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 646,
+            "vt": 34,
+            "vn": 129,
+            "f": 216
+          },
+          "obj_bounds": [
+            [
+              -58.278301,
+              -48.902538
+            ],
+            [
+              13.331314,
+              25.163334
+            ],
+            [
+              48.744724,
+              57.21497
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/37_openskp_material_47.obj",
+          "mtl": "Models/wreath/37_openskp_material_47.mtl",
+          "material": "openskp_material_47",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.0,
+            0.4000000059604645,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 2068,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5230,
+            "vt": 166,
+            "vn": 1455,
+            "f": 2068
+          },
+          "obj_bounds": [
+            [
+              -57.107235,
+              -49.709019
+            ],
+            [
+              14.626665,
+              25.049894
+            ],
+            [
+              49.534679,
+              56.60025
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/38_openskp_material_48.obj",
+          "mtl": "Models/wreath/38_openskp_material_48.mtl",
+          "material": "openskp_material_48",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 16838,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 49079,
+            "vt": 1677,
+            "vn": 11886,
+            "f": 16838
+          },
+          "obj_bounds": [
+            [
+              -60.499161,
+              -47.701908
+            ],
+            [
+              12.442217,
+              27.349323
+            ],
+            [
+              46.472172,
+              58.448818
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/39_openskp_material_49.obj",
+          "mtl": "Models/wreath/39_openskp_material_49.mtl",
+          "material": "openskp_material_49",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 1344,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 4032,
+            "vt": 168,
+            "vn": 1070,
+            "f": 1344
+          },
+          "obj_bounds": [
+            [
+              -60.499161,
+              -47.701908
+            ],
+            [
+              12.442217,
+              27.349323
+            ],
+            [
+              46.564896,
+              58.448818
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/40_openskp_material_5.obj",
+          "mtl": "Models/wreath/40_openskp_material_5.mtl",
+          "material": "openskp_material_5",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.47843137383461,
+            0.6000000238418579,
+            0.3529411852359772
+          ],
+          "alpha_clip": false,
+          "triangles": 1892,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5676,
+            "vt": 63,
+            "vn": 1433,
+            "f": 1892
+          },
+          "obj_bounds": [
+            [
+              -58.546989,
+              -39.335022
+            ],
+            [
+              11.500763,
+              25.971291
+            ],
+            [
+              36.953342,
+              57.5186
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/41_openskp_material_50.obj",
+          "mtl": "Models/wreath/41_openskp_material_50.mtl",
+          "material": "openskp_material_50",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.20000000298023224,
+            0.10588235408067703,
+            0.07450980693101883
+          ],
+          "alpha_clip": false,
+          "triangles": 456,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1368,
+            "vt": 72,
+            "vn": 443,
+            "f": 456
+          },
+          "obj_bounds": [
+            [
+              -56.091377,
+              -49.695164
+            ],
+            [
+              16.473278,
+              23.958855
+            ],
+            [
+              50.725777,
+              56.717041
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/42_openskp_material_51.obj",
+          "mtl": "Models/wreath/42_openskp_material_51.mtl",
+          "material": "openskp_material_51",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 2052,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5490,
+            "vt": 252,
+            "vn": 1866,
+            "f": 2052
+          },
+          "obj_bounds": [
+            [
+              -58.364487,
+              -48.94725
+            ],
+            [
+              13.319489,
+              26.568577
+            ],
+            [
+              49.148026,
+              57.482498
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/43_openskp_material_52.obj",
+          "mtl": "Models/wreath/43_openskp_material_52.mtl",
+          "material": "openskp_material_52",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.6941176652908325,
+            1.0,
+            0.3921568691730499
+          ],
+          "alpha_clip": false,
+          "triangles": 12,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 24,
+            "vt": 24,
+            "vn": 6,
+            "f": 12
+          },
+          "obj_bounds": [
+            [
+              -56.90831,
+              -51.911449
+            ],
+            [
+              17.910141,
+              22.378532
+            ],
+            [
+              50.264721,
+              55.064106
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/44_openskp_material_6.obj",
+          "mtl": "Models/wreath/44_openskp_material_6.mtl",
+          "material": "openskp_material_6",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.15294118225574493,
+            0.4000000059604645,
+            0.15294118225574493
+          ],
+          "alpha_clip": false,
+          "triangles": 15888,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 47657,
+            "vt": 468,
+            "vn": 7214,
+            "f": 15888
+          },
+          "obj_bounds": [
+            [
+              -60.742935,
+              -38.77174
+            ],
+            [
+              10.583799,
+              27.967791
+            ],
+            [
+              37.271343,
+              57.049187
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/45_openskp_material_7.obj",
+          "mtl": "Models/wreath/45_openskp_material_7.mtl",
+          "material": "openskp_material_7",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.29411765933036804,
+            0.6000000238418579,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 15792,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 47366,
+            "vt": 466,
+            "vn": 7184,
+            "f": 15792
+          },
+          "obj_bounds": [
+            [
+              -60.742935,
+              -38.77174
+            ],
+            [
+              10.583799,
+              27.967791
+            ],
+            [
+              37.271343,
+              57.049187
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/46_openskp_material_8.obj",
+          "mtl": "Models/wreath/46_openskp_material_8.mtl",
+          "material": "openskp_material_8",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            0.29411765933036804,
+            0.6000000238418579,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 7008,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 21024,
+            "vt": 344,
+            "vn": 5975,
+            "f": 7008
+          },
+          "obj_bounds": [
+            [
+              -60.349442,
+              -38.886986
+            ],
+            [
+              10.870098,
+              27.952276
+            ],
+            [
+              37.535069,
+              57.041691
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/wreath/47_openskp_material_9.obj",
+          "mtl": "Models/wreath/47_openskp_material_9.mtl",
+          "material": "openskp_material_9",
+          "texture": "Textures/wreath/plain_white.png",
+          "base_color": [
+            1.0,
+            0.8941176533699036,
+            0.6000000238418579
+          ],
+          "alpha_clip": false,
+          "triangles": 6118,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 17507,
+            "vt": 699,
+            "vn": 4672,
+            "f": 6118
+          },
+          "obj_bounds": [
+            [
+              -58.318043,
+              -39.42617
+            ],
+            [
+              12.346782,
+              25.984306
+            ],
+            [
+              39.494736,
+              57.898586
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "altar_table",
+      "original_triangles": 69875,
+      "export_triangles": 64608,
+      "parts": [
+        {
+          "obj": "Models/altar_table/01_openskp_material_100.obj",
+          "mtl": "Models/altar_table/01_openskp_material_100.mtl",
+          "material": "openskp_material_100",
+          "texture": "Textures/altar_table/01_openskp_material_100_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 2933,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 8171,
+            "vt": 5599,
+            "vn": 2439,
+            "f": 2933
+          },
+          "obj_bounds": [
+            [
+              51.615719,
+              52.42474
+            ],
+            [
+              26.899342,
+              29.134567
+            ],
+            [
+              50.076092,
+              52.049294
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/02_openskp_material_101.obj",
+          "mtl": "Models/altar_table/02_openskp_material_101.mtl",
+          "material": "openskp_material_101",
+          "texture": "Textures/altar_table/01_openskp_material_100_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 562,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 1560,
+            "vt": 868,
+            "vn": 464,
+            "f": 562
+          },
+          "obj_bounds": [
+            [
+              51.384571,
+              52.655888
+            ],
+            [
+              25.310261,
+              26.915379
+            ],
+            [
+              49.996803,
+              52.139236
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/03_openskp_material_102.obj",
+          "mtl": "Models/altar_table/03_openskp_material_102.mtl",
+          "material": "openskp_material_102",
+          "texture": "Textures/altar_table/03_openskp_material_102_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": true,
+          "triangles": 12,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 36,
+            "vt": 8,
+            "vn": 1,
+            "f": 12
+          },
+          "obj_bounds": [
+            [
+              46.266365,
+              46.565643
+            ],
+            [
+              20.303352,
+              20.804813
+            ],
+            [
+              49.169819,
+              52.932877
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/04_openskp_material_103.obj",
+          "mtl": "Models/altar_table/04_openskp_material_103.mtl",
+          "material": "openskp_material_103",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.7411764860153198,
+            0.7176470756530762,
+            0.41960784792900085
+          ],
+          "alpha_clip": false,
+          "triangles": 12,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 36,
+            "vt": 8,
+            "vn": 1,
+            "f": 12
+          },
+          "obj_bounds": [
+            [
+              46.266365,
+              46.565643
+            ],
+            [
+              20.303352,
+              20.804813
+            ],
+            [
+              49.169819,
+              52.932877
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/05_openskp_material_104.obj",
+          "mtl": "Models/altar_table/05_openskp_material_104.mtl",
+          "material": "openskp_material_104",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.9607843160629272,
+            0.9607843160629272,
+            0.9607843160629272
+          ],
+          "alpha_clip": false,
+          "triangles": 192,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 542,
+            "vt": 144,
+            "vn": 49,
+            "f": 192
+          },
+          "obj_bounds": [
+            [
+              46.277191,
+              46.55286
+            ],
+            [
+              18.87602,
+              20.304037
+            ],
+            [
+              49.05838,
+              53.03989
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/06_openskp_material_105.obj",
+          "mtl": "Models/altar_table/06_openskp_material_105.mtl",
+          "material": "openskp_material_105",
+          "texture": "Textures/altar_table/06_openskp_material_105_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 2158,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 5451,
+            "vt": 1183,
+            "vn": 274,
+            "f": 2158
+          },
+          "obj_bounds": [
+            [
+              45.054062,
+              53.944382
+            ],
+            [
+              7.965303,
+              23.967873
+            ],
+            [
+              42.244591,
+              59.897202
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/07_openskp_material_106.obj",
+          "mtl": "Models/altar_table/07_openskp_material_106.mtl",
+          "material": "openskp_material_106",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            1.0,
+            0.8941176533699036,
+            0.7686274647712708
+          ],
+          "alpha_clip": false,
+          "triangles": 480,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1432,
+            "vt": 118,
+            "vn": 140,
+            "f": 480
+          },
+          "obj_bounds": [
+            [
+              49.208691,
+              50.815849
+            ],
+            [
+              18.633682,
+              20.891823
+            ],
+            [
+              42.582958,
+              59.706776
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/08_openskp_material_107.obj",
+          "mtl": "Models/altar_table/08_openskp_material_107.mtl",
+          "material": "openskp_material_107",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6470588445663452,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 336,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 992,
+            "vt": 11,
+            "vn": 167,
+            "f": 336
+          },
+          "obj_bounds": [
+            [
+              48.116684,
+              51.690491
+            ],
+            [
+              22.206434,
+              25.007078
+            ],
+            [
+              41.761391,
+              60.918118
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/09_openskp_material_108.obj",
+          "mtl": "Models/altar_table/09_openskp_material_108.mtl",
+          "material": "openskp_material_108",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            1.0,
+            0.6470588445663452,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 48,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 144,
+            "vt": 3,
+            "vn": 26,
+            "f": 48
+          },
+          "obj_bounds": [
+            [
+              48.426811,
+              51.3578
+            ],
+            [
+              22.206434,
+              24.656481
+            ],
+            [
+              42.065178,
+              60.546799
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/10_openskp_material_109.obj",
+          "mtl": "Models/altar_table/10_openskp_material_109.mtl",
+          "material": "openskp_material_109",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            1.0,
+            0.2705882489681244,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 48,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 144,
+            "vt": 3,
+            "vn": 26,
+            "f": 48
+          },
+          "obj_bounds": [
+            [
+              48.426811,
+              51.3578
+            ],
+            [
+              22.206434,
+              24.656481
+            ],
+            [
+              42.065178,
+              60.546799
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/11_openskp_material_110.obj",
+          "mtl": "Models/altar_table/11_openskp_material_110.mtl",
+          "material": "openskp_material_110",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.24313725531101227,
+            0.35686275362968445,
+            0.019607843831181526
+          ],
+          "alpha_clip": false,
+          "triangles": 1356,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3920,
+            "vt": 44,
+            "vn": 387,
+            "f": 1356
+          },
+          "obj_bounds": [
+            [
+              48.2598,
+              52.693047
+            ],
+            [
+              20.751644,
+              24.584692
+            ],
+            [
+              40.887051,
+              61.405628
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/12_openskp_material_111.obj",
+          "mtl": "Models/altar_table/12_openskp_material_111.mtl",
+          "material": "openskp_material_111",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.6627451181411743,
+            0.729411780834198,
+            0.3921568691730499
+          ],
+          "alpha_clip": false,
+          "triangles": 494,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1482,
+            "vt": 181,
+            "vn": 194,
+            "f": 494
+          },
+          "obj_bounds": [
+            [
+              47.501347,
+              51.532696
+            ],
+            [
+              20.613945,
+              23.9366
+            ],
+            [
+              41.814953,
+              60.710396
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/13_openskp_material_112.obj",
+          "mtl": "Models/altar_table/13_openskp_material_112.mtl",
+          "material": "openskp_material_112",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.7921568751335144,
+            0.686274528503418,
+            0.5254902243614197
+          ],
+          "alpha_clip": false,
+          "triangles": 7436,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 22145,
+            "vt": 181,
+            "vn": 2571,
+            "f": 7436
+          },
+          "obj_bounds": [
+            [
+              45.855972,
+              47.048996
+            ],
+            [
+              16.93243,
+              17.485529
+            ],
+            [
+              50.443832,
+              51.636856
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/14_openskp_material_113.obj",
+          "mtl": "Models/altar_table/14_openskp_material_113.mtl",
+          "material": "openskp_material_113",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.2705882489681244,
+            0.23529411852359772,
+            0.1882352977991104
+          ],
+          "alpha_clip": false,
+          "triangles": 276,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 633,
+            "vt": 91,
+            "vn": 57,
+            "f": 276
+          },
+          "obj_bounds": [
+            [
+              46.419655,
+              46.490776
+            ],
+            [
+              18.374561,
+              21.824005
+            ],
+            [
+              50.745911,
+              51.328583
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/15_openskp_material_114.obj",
+          "mtl": "Models/altar_table/15_openskp_material_114.mtl",
+          "material": "openskp_material_114",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            1.0,
+            0.48235294222831726,
+            0.05882352963089943
+          ],
+          "alpha_clip": false,
+          "triangles": 210,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 615,
+            "vt": 68,
+            "vn": 39,
+            "f": 210
+          },
+          "obj_bounds": [
+            [
+              46.419655,
+              46.490776
+            ],
+            [
+              21.824005,
+              21.930689
+            ],
+            [
+              50.745911,
+              51.328583
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/16_openskp_material_115.obj",
+          "mtl": "Models/altar_table/16_openskp_material_115.mtl",
+          "material": "openskp_material_115",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.2705882489681244,
+            0.23529411852359772,
+            0.1882352977991104
+          ],
+          "alpha_clip": false,
+          "triangles": 210,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 615,
+            "vt": 68,
+            "vn": 39,
+            "f": 210
+          },
+          "obj_bounds": [
+            [
+              46.419655,
+              46.490776
+            ],
+            [
+              21.824005,
+              21.930689
+            ],
+            [
+              50.745911,
+              51.328583
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/17_openskp_material_116.obj",
+          "mtl": "Models/altar_table/17_openskp_material_116.mtl",
+          "material": "openskp_material_116",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.6078431606292725,
+            0.4117647111415863,
+            0.239215686917305
+          ],
+          "alpha_clip": false,
+          "triangles": 276,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 585,
+            "vt": 92,
+            "vn": 53,
+            "f": 276
+          },
+          "obj_bounds": [
+            [
+              46.437431,
+              46.472992
+            ],
+            [
+              17.485531,
+              18.374563
+            ],
+            [
+              50.76371,
+              51.310791
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/18_openskp_material_117.obj",
+          "mtl": "Models/altar_table/18_openskp_material_117.mtl",
+          "material": "openskp_material_117",
+          "texture": "Textures/altar_table/18_openskp_material_117_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 936,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 2694,
+            "vt": 1764,
+            "vn": 772,
+            "f": 936
+          },
+          "obj_bounds": [
+            [
+              45.05402,
+              45.534096
+            ],
+            [
+              13.655196,
+              14.223995
+            ],
+            [
+              50.786499,
+              51.355297
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/19_openskp_material_118.obj",
+          "mtl": "Models/altar_table/19_openskp_material_118.mtl",
+          "material": "openskp_material_118",
+          "texture": "Textures/altar_table/19_openskp_material_118_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 58,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 136,
+            "vt": 78,
+            "vn": 14,
+            "f": 58
+          },
+          "obj_bounds": [
+            [
+              45.76524,
+              50.797161
+            ],
+            [
+              13.139467,
+              14.739724
+            ],
+            [
+              46.476364,
+              55.665398
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/20_openskp_material_119.obj",
+          "mtl": "Models/altar_table/20_openskp_material_119.mtl",
+          "material": "openskp_material_119",
+          "texture": "Textures/altar_table/20_openskp_material_119_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 2,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 4,
+            "vt": 4,
+            "vn": 1,
+            "f": 2
+          },
+          "obj_bounds": [
+            [
+              45.76524,
+              50.566013
+            ],
+            [
+              13.370615,
+              13.370615
+            ],
+            [
+              46.707512,
+              55.43425
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/21_openskp_material_12.003.obj",
+          "mtl": "Models/altar_table/21_openskp_material_12.003.mtl",
+          "material": "openskp_material_12.003",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 8850,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 25112,
+            "vt": 7950,
+            "vn": 3213,
+            "f": 8850
+          },
+          "obj_bounds": [
+            [
+              45.05402,
+              53.002544
+            ],
+            [
+              13.655196,
+              25.567131
+            ],
+            [
+              42.582958,
+              59.706776
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/22_openskp_material_120.obj",
+          "mtl": "Models/altar_table/22_openskp_material_120.mtl",
+          "material": "openskp_material_120",
+          "texture": "Textures/altar_table/22_openskp_material_120_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 2,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 4,
+            "vt": 4,
+            "vn": 1,
+            "f": 2
+          },
+          "obj_bounds": [
+            [
+              45.76524,
+              50.566013
+            ],
+            [
+              13.255041,
+              13.255041
+            ],
+            [
+              46.707512,
+              55.43425
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/23_openskp_material_17.003.obj",
+          "mtl": "Models/altar_table/23_openskp_material_17.003.mtl",
+          "material": "openskp_material_17.003",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 16402,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 48400,
+            "vt": 14002,
+            "vn": 9921,
+            "f": 16402
+          },
+          "obj_bounds": [
+            [
+              45.054062,
+              53.944382
+            ],
+            [
+              7.965303,
+              23.967875
+            ],
+            [
+              42.18058,
+              59.961216
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/24_openskp_material_78.obj",
+          "mtl": "Models/altar_table/24_openskp_material_78.mtl",
+          "material": "openskp_material_78",
+          "texture": "Textures/altar_table/24_openskp_material_78_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 150,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 428,
+            "vt": 87,
+            "vn": 13,
+            "f": 150
+          },
+          "obj_bounds": [
+            [
+              50.001091,
+              51.45768
+            ],
+            [
+              22.189808,
+              22.790844
+            ],
+            [
+              45.342701,
+              56.797539
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/25_openskp_material_79.obj",
+          "mtl": "Models/altar_table/25_openskp_material_79.mtl",
+          "material": "openskp_material_79",
+          "texture": "Textures/altar_table/01_openskp_material_100_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 4446,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 12770,
+            "vt": 2411,
+            "vn": 2176,
+            "f": 4446
+          },
+          "obj_bounds": [
+            [
+              50.001091,
+              51.45768
+            ],
+            [
+              22.189808,
+              25.565765
+            ],
+            [
+              45.32766,
+              56.79892
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/26_openskp_material_80.obj",
+          "mtl": "Models/altar_table/26_openskp_material_80.mtl",
+          "material": "openskp_material_80",
+          "texture": "Textures/altar_table/26_openskp_material_80_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 148,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 376,
+            "vt": 78,
+            "vn": 10,
+            "f": 148
+          },
+          "obj_bounds": [
+            [
+              50.06937,
+              51.389404
+            ],
+            [
+              22.377068,
+              22.790844
+            ],
+            [
+              45.32766,
+              56.79892
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/27_openskp_material_81.obj",
+          "mtl": "Models/altar_table/27_openskp_material_81.mtl",
+          "material": "openskp_material_81",
+          "texture": "Textures/altar_table/27_openskp_material_81_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 162,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 454,
+            "vt": 85,
+            "vn": 9,
+            "f": 162
+          },
+          "obj_bounds": [
+            [
+              50.137646,
+              51.321125
+            ],
+            [
+              22.764921,
+              22.874075
+            ],
+            [
+              45.353863,
+              56.754295
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/28_openskp_material_82.obj",
+          "mtl": "Models/altar_table/28_openskp_material_82.mtl",
+          "material": "openskp_material_82",
+          "texture": "Textures/altar_table/01_openskp_material_100_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 48,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 132,
+            "vt": 26,
+            "vn": 22,
+            "f": 48
+          },
+          "obj_bounds": [
+            [
+              50.563652,
+              50.92894
+            ],
+            [
+              25.565765,
+              25.567131
+            ],
+            [
+              46.343555,
+              55.740662
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/29_openskp_material_83.obj",
+          "mtl": "Models/altar_table/29_openskp_material_83.mtl",
+          "material": "openskp_material_83",
+          "texture": "Textures/altar_table/29_openskp_material_83_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 4096,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 11196,
+            "vt": 2044,
+            "vn": 57,
+            "f": 4096
+          },
+          "obj_bounds": [
+            [
+              50.563652,
+              50.92894
+            ],
+            [
+              22.848347,
+              25.567131
+            ],
+            [
+              45.366905,
+              56.745415
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/30_openskp_material_84.obj",
+          "mtl": "Models/altar_table/30_openskp_material_84.mtl",
+          "material": "openskp_material_84",
+          "texture": "Textures/altar_table/30_openskp_material_84_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 196,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 568,
+            "vt": 192,
+            "vn": 82,
+            "f": 196
+          },
+          "obj_bounds": [
+            [
+              50.563652,
+              50.92894
+            ],
+            [
+              22.864338,
+              22.898039
+            ],
+            [
+              45.677422,
+              55.273899
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/31_openskp_material_85.obj",
+          "mtl": "Models/altar_table/31_openskp_material_85.mtl",
+          "material": "openskp_material_85",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.886274516582489,
+            0.886274516582489,
+            0.886274516582489
+          ],
+          "alpha_clip": false,
+          "triangles": 1958,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5352,
+            "vt": 979,
+            "vn": 33,
+            "f": 1958
+          },
+          "obj_bounds": [
+            [
+              50.92894,
+              50.92894
+            ],
+            [
+              22.848347,
+              25.567131
+            ],
+            [
+              45.366905,
+              56.745415
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/32_openskp_material_86.obj",
+          "mtl": "Models/altar_table/32_openskp_material_86.mtl",
+          "material": "openskp_material_86",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.6980392336845398,
+            0.6980392336845398,
+            0.6980392336845398
+          ],
+          "alpha_clip": false,
+          "triangles": 128,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 356,
+            "vt": 16,
+            "vn": 41,
+            "f": 128
+          },
+          "obj_bounds": [
+            [
+              46.028782,
+              46.751385
+            ],
+            [
+              18.436405,
+              18.808458
+            ],
+            [
+              45.962742,
+              56.160099
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/33_openskp_material_87.obj",
+          "mtl": "Models/altar_table/33_openskp_material_87.mtl",
+          "material": "openskp_material_87",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.6980392336845398,
+            0.6980392336845398,
+            0.6980392336845398
+          ],
+          "alpha_clip": false,
+          "triangles": 352,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1024,
+            "vt": 74,
+            "vn": 95,
+            "f": 352
+          },
+          "obj_bounds": [
+            [
+              45.845406,
+              46.934761
+            ],
+            [
+              16.900782,
+              18.436405
+            ],
+            [
+              45.779366,
+              56.343475
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/34_openskp_material_88.obj",
+          "mtl": "Models/altar_table/34_openskp_material_88.mtl",
+          "material": "openskp_material_88",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.6274510025978088,
+            0.686274528503418,
+            0.8196078538894653
+          ],
+          "alpha_clip": false,
+          "triangles": 352,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1024,
+            "vt": 74,
+            "vn": 95,
+            "f": 352
+          },
+          "obj_bounds": [
+            [
+              45.845406,
+              46.934761
+            ],
+            [
+              16.900782,
+              18.436405
+            ],
+            [
+              45.779366,
+              56.343475
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/35_openskp_material_89.obj",
+          "mtl": "Models/altar_table/35_openskp_material_89.mtl",
+          "material": "openskp_material_89",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.14509804546833038,
+            0.40784314274787903,
+            0.19607843458652496
+          ],
+          "alpha_clip": false,
+          "triangles": 264,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 792,
+            "vt": 84,
+            "vn": 189,
+            "f": 264
+          },
+          "obj_bounds": [
+            [
+              45.910439,
+              46.720829
+            ],
+            [
+              17.013321,
+              20.752102
+            ],
+            [
+              45.816528,
+              56.121201
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/36_openskp_material_90.obj",
+          "mtl": "Models/altar_table/36_openskp_material_90.mtl",
+          "material": "openskp_material_90",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.4470588266849518,
+            0.501960813999176,
+            0.1921568661928177
+          ],
+          "alpha_clip": false,
+          "triangles": 264,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 792,
+            "vt": 84,
+            "vn": 189,
+            "f": 264
+          },
+          "obj_bounds": [
+            [
+              45.910439,
+              46.720829
+            ],
+            [
+              17.013321,
+              20.752102
+            ],
+            [
+              45.816528,
+              56.121201
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/37_openskp_material_91.obj",
+          "mtl": "Models/altar_table/37_openskp_material_91.mtl",
+          "material": "openskp_material_91",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.4470588266849518,
+            0.501960813999176,
+            0.1921568661928177
+          ],
+          "alpha_clip": false,
+          "triangles": 840,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 2512,
+            "vt": 231,
+            "vn": 351,
+            "f": 840
+          },
+          "obj_bounds": [
+            [
+              45.910439,
+              52.484501
+            ],
+            [
+              19.431961,
+              23.9366
+            ],
+            [
+              41.632923,
+              60.512505
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/38_openskp_material_92.obj",
+          "mtl": "Models/altar_table/38_openskp_material_92.mtl",
+          "material": "openskp_material_92",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.14509804546833038,
+            0.40784314274787903,
+            0.19607843458652496
+          ],
+          "alpha_clip": false,
+          "triangles": 112,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 248,
+            "vt": 12,
+            "vn": 51,
+            "f": 112
+          },
+          "obj_bounds": [
+            [
+              45.450397,
+              47.35141
+            ],
+            [
+              18.68232,
+              20.242487
+            ],
+            [
+              45.330669,
+              56.682579
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/39_openskp_material_93.obj",
+          "mtl": "Models/altar_table/39_openskp_material_93.mtl",
+          "material": "openskp_material_93",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.9882352948188782,
+            0.9764705896377563,
+            0.9450980424880981
+          ],
+          "alpha_clip": false,
+          "triangles": 352,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1048,
+            "vt": 20,
+            "vn": 175,
+            "f": 352
+          },
+          "obj_bounds": [
+            [
+              45.41135,
+              47.207485
+            ],
+            [
+              19.013577,
+              21.018356
+            ],
+            [
+              45.341377,
+              56.667984
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/40_openskp_material_94.obj",
+          "mtl": "Models/altar_table/40_openskp_material_94.mtl",
+          "material": "openskp_material_94",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.8588235378265381,
+            0.7450980544090271,
+            0.09803921729326248
+          ],
+          "alpha_clip": false,
+          "triangles": 160,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 480,
+            "vt": 7,
+            "vn": 71,
+            "f": 160
+          },
+          "obj_bounds": [
+            [
+              45.626617,
+              46.984982
+            ],
+            [
+              19.325647,
+              20.945173
+            ],
+            [
+              45.548073,
+              56.42746
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/41_openskp_material_95.obj",
+          "mtl": "Models/altar_table/41_openskp_material_95.mtl",
+          "material": "openskp_material_95",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.9882352948188782,
+            0.9764705896377563,
+            0.9450980424880981
+          ],
+          "alpha_clip": false,
+          "triangles": 160,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 480,
+            "vt": 7,
+            "vn": 71,
+            "f": 160
+          },
+          "obj_bounds": [
+            [
+              45.626617,
+              46.984982
+            ],
+            [
+              19.325647,
+              20.945173
+            ],
+            [
+              45.548073,
+              56.42746
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/altar_table/42_openskp_material_96.obj",
+          "mtl": "Models/altar_table/42_openskp_material_96.mtl",
+          "material": "openskp_material_96",
+          "texture": "Textures/altar_table/42_openskp_material_96_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": true,
+          "triangles": 318,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 731,
+            "vt": 332,
+            "vn": 14,
+            "f": 318
+          },
+          "obj_bounds": [
+            [
+              51.037785,
+              53.002544
+            ],
+            [
+              23.967875,
+              25.751963
+            ],
+            [
+              49.533752,
+              52.608025
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/43_openskp_material_97.obj",
+          "mtl": "Models/altar_table/43_openskp_material_97.mtl",
+          "material": "openskp_material_97",
+          "texture": "Textures/altar_table/01_openskp_material_100_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 3302,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 9274,
+            "vt": 6147,
+            "vn": 2330,
+            "f": 3302
+          },
+          "obj_bounds": [
+            [
+              51.037785,
+              53.002544
+            ],
+            [
+              24.300117,
+              29.134567
+            ],
+            [
+              49.533752,
+              52.608025
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/44_openskp_material_98.obj",
+          "mtl": "Models/altar_table/44_openskp_material_98.mtl",
+          "material": "openskp_material_98",
+          "texture": "Textures/altar_table/42_openskp_material_96_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": true,
+          "triangles": 1707,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 4167,
+            "vt": 1949,
+            "vn": 241,
+            "f": 1707
+          },
+          "obj_bounds": [
+            [
+              51.153362,
+              52.886974
+            ],
+            [
+              24.300117,
+              29.134563
+            ],
+            [
+              49.57489,
+              52.602489
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/altar_table/45_openskp_material_99.obj",
+          "mtl": "Models/altar_table/45_openskp_material_99.mtl",
+          "material": "openskp_material_99",
+          "texture": "Textures/altar_table/plain_white.png",
+          "base_color": [
+            0.6000000238418579,
+            0.2980392277240753,
+            0.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1804,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 4378,
+            "vt": 2572,
+            "vn": 731,
+            "f": 1804
+          },
+          "obj_bounds": [
+            [
+              51.384571,
+              52.078018
+            ],
+            [
+              25.31041,
+              29.134451
+            ],
+            [
+              49.996407,
+              52.138851
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "monk_pltform",
+      "original_triangles": 12076,
+      "export_triangles": 12076,
+      "parts": [
+        {
+          "obj": "Models/monk_pltform/01_openskp_material_12.obj",
+          "mtl": "Models/monk_pltform/01_openskp_material_12.mtl",
+          "material": "openskp_material_12",
+          "texture": "Textures/monk_pltform/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 3224,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 8308,
+            "vt": 1156,
+            "vn": 463,
+            "f": 3224
+          },
+          "obj_bounds": [
+            [
+              55.945026,
+              56.458
+            ],
+            [
+              8.415493,
+              21.581816
+            ],
+            [
+              64.349022,
+              120.066589
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/monk_pltform/02_openskp_material_121.obj",
+          "mtl": "Models/monk_pltform/02_openskp_material_121.mtl",
+          "material": "openskp_material_121",
+          "texture": "Textures/monk_pltform/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9803921580314636,
+            0.9411764740943909
+          ],
+          "alpha_clip": false,
+          "triangles": 40,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 80,
+            "vt": 8,
+            "vn": 5,
+            "f": 40
+          },
+          "obj_bounds": [
+            [
+              45.685574,
+              55.945045
+            ],
+            [
+              8.415493,
+              8.928467
+            ],
+            [
+              64.046982,
+              120.474106
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/monk_pltform/03_openskp_material_122.obj",
+          "mtl": "Models/monk_pltform/03_openskp_material_122.mtl",
+          "material": "openskp_material_122",
+          "texture": "Textures/monk_pltform/03_openskp_material_122_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": true,
+          "triangles": 8,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 16,
+            "vt": 4,
+            "vn": 1,
+            "f": 8
+          },
+          "obj_bounds": [
+            [
+              45.685574,
+              55.945045
+            ],
+            [
+              8.928467,
+              8.928467
+            ],
+            [
+              64.046982,
+              120.474106
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/monk_pltform/04_openskp_material_123.obj",
+          "mtl": "Models/monk_pltform/04_openskp_material_123.mtl",
+          "material": "openskp_material_123",
+          "texture": "Textures/monk_pltform/plain_white.png",
+          "base_color": [
+            1.0,
+            0.9803921580314636,
+            0.9411764740943909
+          ],
+          "alpha_clip": false,
+          "triangles": 1996,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 5140,
+            "vt": 930,
+            "vn": 529,
+            "f": 1996
+          },
+          "obj_bounds": [
+            [
+              45.685574,
+              56.446655
+            ],
+            [
+              8.415493,
+              19.998379
+            ],
+            [
+              63.15892,
+              120.474106
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/monk_pltform/05_openskp_material_124.obj",
+          "mtl": "Models/monk_pltform/05_openskp_material_124.mtl",
+          "material": "openskp_material_124",
+          "texture": "Textures/monk_pltform/05_openskp_material_124_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 960,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 2332,
+            "vt": 244,
+            "vn": 14,
+            "f": 960
+          },
+          "obj_bounds": [
+            [
+              55.945026,
+              56.458
+            ],
+            [
+              8.415493,
+              21.581816
+            ],
+            [
+              64.349022,
+              120.066589
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/monk_pltform/06_openskp_material_125.obj",
+          "mtl": "Models/monk_pltform/06_openskp_material_125.mtl",
+          "material": "openskp_material_125",
+          "texture": "Textures/monk_pltform/plain_white.png",
+          "base_color": [
+            0.5176470875740051,
+            0.4117647111415863,
+            0.1568627506494522
+          ],
+          "alpha_clip": false,
+          "triangles": 1164,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3184,
+            "vt": 559,
+            "vn": 270,
+            "f": 1164
+          },
+          "obj_bounds": [
+            [
+              55.945026,
+              56.458
+            ],
+            [
+              8.415493,
+              21.581816
+            ],
+            [
+              64.349022,
+              120.066589
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/monk_pltform/07_openskp_material_126.obj",
+          "mtl": "Models/monk_pltform/07_openskp_material_126.mtl",
+          "material": "openskp_material_126",
+          "texture": "Textures/monk_pltform/plain_white.png",
+          "base_color": [
+            0.5647059082984924,
+            0.4156862795352936,
+            0.10588235408067703
+          ],
+          "alpha_clip": false,
+          "triangles": 1264,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3752,
+            "vt": 512,
+            "vn": 250,
+            "f": 1264
+          },
+          "obj_bounds": [
+            [
+              55.36919,
+              56.854729
+            ],
+            [
+              18.719131,
+              25.829271
+            ],
+            [
+              60.391087,
+              112.51342
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/monk_pltform/08_openskp_material_127.obj",
+          "mtl": "Models/monk_pltform/08_openskp_material_127.mtl",
+          "material": "openskp_material_127",
+          "texture": "Textures/monk_pltform/08_openskp_material_127_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 120,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 360,
+            "vt": 128,
+            "vn": 4,
+            "f": 120
+          },
+          "obj_bounds": [
+            [
+              55.462959,
+              56.67934
+            ],
+            [
+              19.010468,
+              25.544434
+            ],
+            [
+              60.672695,
+              112.246117
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/monk_pltform/09_openskp_material_128.obj",
+          "mtl": "Models/monk_pltform/09_openskp_material_128.mtl",
+          "material": "openskp_material_128",
+          "texture": "Textures/monk_pltform/09_openskp_material_128_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 12,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 24,
+            "vt": 18,
+            "vn": 6,
+            "f": 12
+          },
+          "obj_bounds": [
+            [
+              40.160503,
+              57.259624
+            ],
+            [
+              -0.13407,
+              8.415504
+            ],
+            [
+              41.192787,
+              126.6884
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/monk_pltform/10_openskp_material_17.obj",
+          "mtl": "Models/monk_pltform/10_openskp_material_17.mtl",
+          "material": "openskp_material_17",
+          "texture": "Textures/monk_pltform/plain_white.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1016,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 2672,
+            "vt": 223,
+            "vn": 43,
+            "f": 1016
+          },
+          "obj_bounds": [
+            [
+              55.945026,
+              56.628963
+            ],
+            [
+              8.415493,
+              21.581816
+            ],
+            [
+              62.849579,
+              120.066589
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/monk_pltform/11_openskp_material_54.obj",
+          "mtl": "Models/monk_pltform/11_openskp_material_54.mtl",
+          "material": "openskp_material_54",
+          "texture": "Textures/monk_pltform/plain_white.png",
+          "base_color": [
+            0.6431372761726379,
+            0.6941176652908325,
+            0.729411780834198
+          ],
+          "alpha_clip": false,
+          "triangles": 2272,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 6440,
+            "vt": 1024,
+            "vn": 593,
+            "f": 2272
+          },
+          "obj_bounds": [
+            [
+              55.36919,
+              56.854729
+            ],
+            [
+              8.415493,
+              25.829271
+            ],
+            [
+              60.391087,
+              112.51342
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "original_triangles": 7134,
+      "export_triangles": 7134,
+      "parts": [
+        {
+          "obj": "Models/table/01_Gold_Marble.obj",
+          "mtl": "Models/table/01_Gold_Marble.mtl",
+          "material": "Gold Marble",
+          "texture": "Textures/table/01_Gold_Marble_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 3890,
+          "additional_images": [
+            "Textures/table/marble_07_height.jpg.png",
+            "Textures/table/marble_07_roughness.jpg.png",
+            "Textures/table/marble_07_normal.jpg.001.png",
+            "Textures/table/marble_07_ao.jpg.png"
+          ],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 4147,
+            "vt": 2745,
+            "vn": 2640,
+            "f": 3890
+          },
+          "obj_bounds": [
+            [
+              -9.66353,
+              12.695144
+            ],
+            [
+              -0.937921,
+              6.638682
+            ],
+            [
+              42.797333,
+              53.250214
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/table/02_Tauari_wood.obj",
+          "mtl": "Models/table/02_Tauari_wood.mtl",
+          "material": "Tauari wood",
+          "texture": "Textures/table/02_Tauari_wood_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 1564,
+          "additional_images": [
+            "Textures/table/tauari_height.bmp.png",
+            "Textures/table/tauari_roughness.bmp.png"
+          ],
+          "uv_mapping_applied": true,
+          "verified_counts": {
+            "v": 980,
+            "vt": 980,
+            "vn": 810,
+            "f": 1564
+          },
+          "obj_bounds": [
+            [
+              -8.379827,
+              11.400897
+            ],
+            [
+              6.190817,
+              6.638619
+            ],
+            [
+              44.083412,
+              51.964134
+            ]
+          ],
+          "texture_kind": "source_base_color_image"
+        },
+        {
+          "obj": "Models/table/03_unassigned.obj",
+          "mtl": "Models/table/03_unassigned.mtl",
+          "material": "unassigned",
+          "texture": "Textures/table/plain_white.png",
+          "base_color": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "alpha_clip": false,
+          "triangles": 1680,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1334,
+            "vt": 1125,
+            "vn": 1080,
+            "f": 1680
+          },
+          "obj_bounds": [
+            [
+              -8.377659,
+              11.408976
+            ],
+            [
+              6.191183,
+              6.638682
+            ],
+            [
+              44.080193,
+              51.967354
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "incense",
+      "original_triangles": 1754,
+      "export_triangles": 25084,
+      "parts": [
+        {
+          "obj": "Models/incense/01_Material.002.obj",
+          "mtl": "Models/incense/01_Material.002.mtl",
+          "material": "Material.002",
+          "texture": "Textures/incense/plain_white.png",
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 24064,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 12034,
+            "vt": 12034,
+            "vn": 12029,
+            "f": 24064
+          },
+          "obj_bounds": [
+            [
+              1.0603,
+              2.527329
+            ],
+            [
+              6.466556,
+              9.87393
+            ],
+            [
+              46.888058,
+              48.355087
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/incense/02_stick.obj",
+          "mtl": "Models/incense/02_stick.mtl",
+          "material": "stick",
+          "texture": "Textures/incense/plain_white.png",
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 1020,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 1632,
+            "vt": 16,
+            "vn": 827,
+            "f": 1020
+          },
+          "obj_bounds": [
+            [
+              1.124503,
+              2.158989
+            ],
+            [
+              6.830799,
+              13.400612
+            ],
+            [
+              47.018002,
+              48.131485
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "candle1",
+      "original_triangles": 10128,
+      "export_triangles": 6134,
+      "parts": [
+        {
+          "obj": "Models/candle1/01_Material.003.obj",
+          "mtl": "Models/candle1/01_Material.003.mtl",
+          "material": "Material.003",
+          "texture": "Textures/candle1/plain_white.png",
+          "base_color": [
+            0.38248613476753235,
+            0.1997692584991455,
+            0.12116236984729767
+          ],
+          "alpha_clip": false,
+          "triangles": 5406,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3933,
+            "vt": 3930,
+            "vn": 3475,
+            "f": 5406
+          },
+          "obj_bounds": [
+            [
+              6.375162,
+              9.847143
+            ],
+            [
+              6.628222,
+              9.13755
+            ],
+            [
+              45.645679,
+              49.813107
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/candle1/02_Material.004.obj",
+          "mtl": "Models/candle1/02_Material.004.mtl",
+          "material": "Material.004",
+          "texture": "Textures/candle1/plain_white.png",
+          "base_color": [
+            0.9473066926002502,
+            0.7461562752723694,
+            0.7461562752723694
+          ],
+          "alpha_clip": false,
+          "triangles": 584,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 322,
+            "vt": 322,
+            "vn": 311,
+            "f": 584
+          },
+          "obj_bounds": [
+            [
+              7.820606,
+              8.401699
+            ],
+            [
+              8.144383,
+              10.766221
+            ],
+            [
+              47.786819,
+              48.367912
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/candle1/03_Material.005.obj",
+          "mtl": "Models/candle1/03_Material.005.mtl",
+          "material": "Material.005",
+          "texture": "Textures/candle1/plain_white.png",
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 124,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 135,
+            "vt": 133,
+            "vn": 106,
+            "f": 124
+          },
+          "obj_bounds": [
+            [
+              8.099898,
+              8.122407
+            ],
+            [
+              10.619948,
+              10.835122
+            ],
+            [
+              48.066113,
+              48.088619
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/candle1/04_Material.007.obj",
+          "mtl": "Models/candle1/04_Material.007.mtl",
+          "material": "Material.007",
+          "texture": "Textures/candle1/plain_white.png",
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 20,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 40,
+            "vt": 4,
+            "vn": 10,
+            "f": 20
+          },
+          "obj_bounds": [
+            [
+              7.765038,
+              8.457281
+            ],
+            [
+              10.750111,
+              11.627598
+            ],
+            [
+              47.731251,
+              48.423496
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "candle2",
+      "original_triangles": 10128,
+      "export_triangles": 6134,
+      "parts": [
+        {
+          "obj": "Models/candle2/01_Material.003.obj",
+          "mtl": "Models/candle2/01_Material.003.mtl",
+          "material": "Material.003",
+          "texture": "Textures/candle2/plain_white.png",
+          "base_color": [
+            0.38248613476753235,
+            0.1997692584991455,
+            0.12116236984729767
+          ],
+          "alpha_clip": false,
+          "triangles": 5406,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 3933,
+            "vt": 3930,
+            "vn": 3477,
+            "f": 5406
+          },
+          "obj_bounds": [
+            [
+              -7.012024,
+              -3.540043
+            ],
+            [
+              6.628222,
+              9.13755
+            ],
+            [
+              45.645679,
+              49.813107
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/candle2/02_Material.004.obj",
+          "mtl": "Models/candle2/02_Material.004.mtl",
+          "material": "Material.004",
+          "texture": "Textures/candle2/plain_white.png",
+          "base_color": [
+            0.9473066926002502,
+            0.7461562752723694,
+            0.7461562752723694
+          ],
+          "alpha_clip": false,
+          "triangles": 584,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 322,
+            "vt": 322,
+            "vn": 312,
+            "f": 584
+          },
+          "obj_bounds": [
+            [
+              -5.56658,
+              -4.985487
+            ],
+            [
+              8.144383,
+              10.766221
+            ],
+            [
+              47.786819,
+              48.367912
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/candle2/03_Material.005.obj",
+          "mtl": "Models/candle2/03_Material.005.mtl",
+          "material": "Material.005",
+          "texture": "Textures/candle2/plain_white.png",
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 124,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 135,
+            "vt": 133,
+            "vn": 103,
+            "f": 124
+          },
+          "obj_bounds": [
+            [
+              -5.287288,
+              -5.264779
+            ],
+            [
+              10.619948,
+              10.835122
+            ],
+            [
+              48.066113,
+              48.088619
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        },
+        {
+          "obj": "Models/candle2/04_Material.007.obj",
+          "mtl": "Models/candle2/04_Material.007.mtl",
+          "material": "Material.007",
+          "texture": "Textures/candle2/plain_white.png",
+          "base_color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "alpha_clip": false,
+          "triangles": 20,
+          "additional_images": [],
+          "uv_mapping_applied": false,
+          "verified_counts": {
+            "v": 40,
+            "vt": 4,
+            "vn": 10,
+            "f": 20
+          },
+          "obj_bounds": [
+            [
+              -5.622148,
+              -4.929904
+            ],
+            [
+              10.750111,
+              11.627598
+            ],
+            [
+              47.731251,
+              48.423496
+            ]
+          ],
+          "texture_kind": "plain_white_for_Lab12_with_base_color"
+        }
+      ]
+    },
+    {
+      "name": "cat_american",
+      "source_collection": "American Cat",
+      "source_blend": "../../Blender/FutureMe.blend",
+      "original_triangles": 19999,
+      "export_triangles": 19999,
+      "parts": [
+        {
+          "obj": "Models/cat_american/01_material.obj",
+          "mtl": "Models/cat_american/01_material.mtl",
+          "material": "material",
+          "source_object": "American_mesh_node",
+          "texture": "Textures/cat_american/01_material_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 19999,
+          "additional_images": [
+            "Textures/cat_american/emissive.png",
+            "Textures/cat_american/metallic_roughness.png",
+            "Textures/cat_american/normal.png"
+          ],
+          "uv_mapping_applied": true,
+          "texture_kind": "source_base_color_image",
+          "source_world_bounds": [
+            [
+              -29.675678253173828,
+              -19.63385009765625
+            ],
+            [
+              -73.62896728515625,
+              -60.979488372802734
+            ],
+            [
+              0.23344755172729492,
+              9.106307983398438
+            ]
+          ],
+          "verified_counts": {
+            "v": 16109,
+            "vt": 16087,
+            "vn": 16085,
+            "f": 19999
+          },
+          "obj_bounds": [
+            [
+              -29.675678,
+              -19.63385
+            ],
+            [
+              0.233448,
+              9.106308
+            ],
+            [
+              60.979488,
+              73.628967
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cat_black",
+      "source_collection": "Black Cat",
+      "source_blend": "../../Blender/FutureMe.blend",
+      "original_triangles": 7372,
+      "export_triangles": 7372,
+      "parts": [
+        {
+          "obj": "Models/cat_black/01_Material_105.obj",
+          "mtl": "Models/cat_black/01_Material_105.mtl",
+          "material": "Material_105",
+          "source_object": "Black_sk_player_cat_lod0_Material #105_0",
+          "texture": "Textures/cat_black/01_Material_105_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 608,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "texture_kind": "source_base_color_image",
+          "source_world_bounds": [
+            [
+              42.440696716308594,
+              43.71434783935547
+            ],
+            [
+              -85.87874603271484,
+              -83.96897888183594
+            ],
+            [
+              15.704898834228516,
+              16.5859432220459
+            ]
+          ],
+          "verified_counts": {
+            "v": 322,
+            "vt": 161,
+            "vn": 253,
+            "f": 608
+          },
+          "obj_bounds": [
+            [
+              42.440697,
+              43.714348
+            ],
+            [
+              15.704899,
+              16.585943
+            ],
+            [
+              83.968979,
+              85.878746
+            ]
+          ]
+        },
+        {
+          "obj": "Models/cat_black/02_Material_81.obj",
+          "mtl": "Models/cat_black/02_Material_81.mtl",
+          "material": "Material_81",
+          "source_object": "Black_sk_player_cat_lod0_Material #81_0",
+          "texture": "Textures/cat_black/02_Material_81_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 6164,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "texture_kind": "source_base_color_image",
+          "source_world_bounds": [
+            [
+              41.59165954589844,
+              55.46617889404297
+            ],
+            [
+              -91.02149963378906,
+              -81.18702697753906
+            ],
+            [
+              8.663898468017578,
+              18.728925704956055
+            ]
+          ],
+          "verified_counts": {
+            "v": 3895,
+            "vt": 3612,
+            "vn": 3803,
+            "f": 6164
+          },
+          "obj_bounds": [
+            [
+              41.59166,
+              55.466179
+            ],
+            [
+              8.663898,
+              18.728926
+            ],
+            [
+              81.187027,
+              91.0215
+            ]
+          ]
+        },
+        {
+          "obj": "Models/cat_black/03_Material_93.obj",
+          "mtl": "Models/cat_black/03_Material_93.mtl",
+          "material": "Material_93",
+          "source_object": "Black_sk_player_cat_lod0_Material #93_0",
+          "texture": "Textures/cat_black/03_Material_93_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": true,
+          "triangles": 600,
+          "additional_images": [],
+          "uv_mapping_applied": true,
+          "texture_kind": "source_base_color_image",
+          "source_world_bounds": [
+            [
+              41.30882263183594,
+              45.234161376953125
+            ],
+            [
+              -87.12548065185547,
+              -82.31371307373047
+            ],
+            [
+              14.811559677124023,
+              18.3409423828125
+            ]
+          ],
+          "verified_counts": {
+            "v": 684,
+            "vt": 40,
+            "vn": 561,
+            "f": 600
+          },
+          "obj_bounds": [
+            [
+              41.308823,
+              45.234161
+            ],
+            [
+              14.81156,
+              18.340942
+            ],
+            [
+              82.313713,
+              87.125481
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cat_fred",
+      "source_collection": "Fred Cat",
+      "source_blend": "../../Blender/FutureMe.blend",
+      "original_triangles": 180528,
+      "export_triangles": 180528,
+      "parts": [
+        {
+          "obj": "Models/cat_fred/01_Material_0.001.obj",
+          "mtl": "Models/cat_fred/01_Material_0.001.mtl",
+          "material": "Material_0.001",
+          "source_object": "Fred_mesh_0",
+          "texture": "Textures/cat_fred/01_Material_0.001_basecolor.png",
+          "base_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "alpha_clip": false,
+          "triangles": 180528,
+          "additional_images": [
+            "Textures/cat_fred/Image_2.001.png",
+            "Textures/cat_fred/Image_0.png",
+            "Textures/cat_fred/Image_3.001.png"
+          ],
+          "uv_mapping_applied": true,
+          "texture_kind": "source_base_color_image",
+          "source_world_bounds": [
+            [
+              7.447230339050293,
+              13.689733505249023
+            ],
+            [
+              -85.08457946777344,
+              -74.90315246582031
+            ],
+            [
+              0.16712157428264618,
+              12.42340087890625
+            ]
+          ],
+          "verified_counts": {
+            "v": 134670,
+            "vt": 123056,
+            "vn": 136379,
+            "f": 180528
+          },
+          "obj_bounds": [
+            [
+              7.44723,
+              13.689734
+            ],
+            [
+              0.167122,
+              12.423401
+            ],
+            [
+              74.903152,
+              85.084579
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "missing_images": [
+    {
+      "image": "candle lit normals",
+      "original_path": "C:\\Users\\ASUS\\Downloads\\candle lit normals.png"
+    },
+    {
+      "image": "Candle-Flame-PNG-Images.png",
+      "original_path": "C:\\Users\\ASUS\\Downloads\\candle holder materials\\Candle-Flame-PNG-Images.png"
+    }
+  ],
+  "notes": [
+    "One OBJ per material for the Lab12 loader. Positions are already in scene coordinates.",
+    "Textures preserve available image maps. Complex procedural materials use a base-color approximation; no Blender lights are baked.",
+    "White texture plus base_color in manifest represents materials without a color image.",
+    "Missing source images are listed; no replacement flame image was invented.",
+    "Repaired one zero-length source normal in altar_table/06_openskp_material_105.obj using adjacent face normals.",
+    "Removed 4472 exactly coincident duplicate flower triangles that Blender OBJ import also removes; placement and visible surfaces are preserved.",
+    "Untextured MTL materials store Kd without map_Kd. For Lab12, use the supplied plain_white texture together with base_color from this manifest. This avoids replacing solid material colors with white on OBJ re-import.",
+    "Added cat_american, cat_black, cat_fred from the latest saved FutureMe.blend on 2026-10-17. Cat positions are baked in scene coordinates. Fred retains all 180528 source triangles. Cat Mapping transforms are baked into UVs. Existing non-cat assets retain their earlier export positions."
+  ],
+  "reductions": [
+    {
+      "object": "skp494E.001",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.003",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.004",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.007",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.009",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.011",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.013",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.015",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.017",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.019",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.021",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.023",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.025",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.027",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "skp494E.040",
+      "group": "coffin2",
+      "original_faces": 99808,
+      "ratio": 0.22
+    },
+    {
+      "object": "Component#106",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.001",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.002",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.003",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.004",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.005",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.006",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.007",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.008",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.009",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.010",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.011",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.012",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.013",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.014",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.015",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.016",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.017",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.018",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.019",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.020",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.021",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.022",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#106.023",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.001",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.002",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.003",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.004",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.005",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.006",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.007",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.008",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.009",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.010",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.011",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.012",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.013",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.014",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.015",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.016",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.017",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.018",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.019",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.020",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.021",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.022",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Component#53.023",
+      "group": "wreath",
+      "original_faces": 1466,
+      "ratio": 0.55
+    },
+    {
+      "object": "Group#62",
+      "group": "altar_table",
+      "original_faces": 15047,
+      "ratio": 0.65
+    },
+    {
+      "object": "Circle.003",
+      "group": "candle1",
+      "original_faces": 4938,
+      "ratio": 0.6
+    },
+    {
+      "object": "Circle.001",
+      "group": "candle2",
+      "original_faces": 4938,
+      "ratio": 0.6
+    }
+  ],
+  "total_original_triangles": 2092658,
+  "total_export_triangles": 898816,
+  "cat_export_verification": {
+    "parts": 5,
+    "triangles": 207899,
+    "png_images": 11,
+    "positions_and_axes_match_scene": true,
+    "triangulated_uv_normals_indices_valid": true,
+    "mtl_paths_and_alpha_valid": true,
+    "source_scene_unchanged": true
+  }
+}

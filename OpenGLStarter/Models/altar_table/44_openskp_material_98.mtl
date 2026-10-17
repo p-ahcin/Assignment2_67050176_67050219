@@ -1,0 +1,13 @@
+# Blender 5.2.2 LTS MTL File: 'FutureMe.blend'
+# www.blender.org
+
+newmtl Export_44_openskp_material_98
+Kd 1.000000 1.000000 1.000000
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd ../../Textures/altar_table/42_openskp_material_96_basecolor.png
+map_d ../../Textures/altar_table/42_openskp_material_96_basecolor.png
