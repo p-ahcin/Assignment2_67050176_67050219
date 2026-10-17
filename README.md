@@ -4,7 +4,7 @@ Final Project วิชา **Computer Graphics** ของ **67050176 ณิช�
 
 ## แนวคิดและองค์ประกอบ
 
-ตีความหัวข้อ **FUTURE ME** ผ่านฉาก “งานศพของฉัน” โดยมีแมวสามตัวร่วมอยู่ในฉาก เพราะเราทั้งสองคนชอบแมวมาก อนาคตที่เป็นงานสำคัญครั้งสุดท้ายในชีวิตอยากให้แมวที่รักมาอยูู่ส่ง 
+ตีความหัวข้อ **FUTURE ME** ผ่านฉาก “งานศพของฉัน” โดยมีแมวสามตัวร่วมอยู่ในฉาก เพราะเราทั้งสองคนชอบแมวมาก อนาคตที่เป็นงานสำคัญครั้งสุดท้ายในชีวิตอยากให้แมวที่รักมาอยู่ส่ง โดยเราหวังว่าเมื่อเราได้จากโลกนี้ไปเราจะได้เจอกับแมวที่เรารักอีกครั้ง และอีกเหตุผลหนึ่งก็คือเมื่อพูดถึงอนาคตแล้วอนาคตเป็นสิ่งที่ไม่แน่นอน เราไม่สามารถรับรู้ได้ว่าในวันข้างหน้าจะเกิดอะไรขึ้นกับตัวเราบ้าง แต่สิ่งหนึ่งที่เราทุกคนไม่อาจหลีกเลี่ยงได้คือความตาย ดังนั้นไม่ช้าหรือเร็วคนเราก็ต้องตาย และพวกเราหวังอย่างยิ่งว่าความตายที่ดูน่ากลัวจะดูน่ากลัวน้อยลงเมื่อมีสิ่งที่เรารัก นั่นคือแมวของเรา
 
 ใช้แสงเทียนสีอุ่นเป็นแหล่งกำเนิดแสงหลัก ประกอบด้วยพื้นแพลตฟอร์ม โลงศพพร้อมฐานและดอกไม้ พวงหรีด โต๊ะหมู่บูชา อาสนะพระ โต๊ะหน้าโลง ธูป เทียน และแมวทั้ง 3 ตัว
 
@@ -137,8 +137,8 @@ Assignment2_67050176_67050219/
 |---|---|
 | `candlePositions` | ตำแหน่งเปลวทั้งสี่ในพิกัด OpenGL |
 | `candleColor` | สีอุ่น RGB `(1.0, 0.65, 0.32)` |
-| `candleStrengths` | ความแรงแต่ละดวง `(5, 5, 4, 4)` |
-| `ambientStrength` | แสงแวดล้อม `0.12` ช่วยให้เห็นส่วนที่ไกลเทียน |
+| `candleStrengths` | ความแรงแต่ละดวง `(7, 7, 5.5, 5.5)` |
+| `ambientStrength` | แสงแวดล้อม `0.45` ช่วยให้มองเห็นวัตถุทั่วฉาก แม้บริเวณที่ไกลเทียนหรืออยู่ในเงา |
 | `attenuationLinear` / `attenuationQuadratic` | การลดแสงตามระยะ `0.07` / `0.017` |
 | `SHADOW_SIZE` / `shadowFarPlane` | แผนที่เงา `1024 × 1024` ต่อหน้า / ระยะไกล `180` |
 
@@ -175,6 +175,9 @@ Assignment2_67050176_67050219/
 | องค์ประกอบ | โมเดลและแหล่งดาวน์โหลด | การนำมาใช้ |
 |---|---|---|
 | ฉากงานศพ | [Thai funeral — 3D Warehouse](https://3dwarehouse.sketchup.com/model/a9b1499b-c792-4c1d-adc0-c24abc45ef78/Thai-funeral) | ฉากและองค์ประกอบงานศพ เตรียมแยกเป็นกลุ่มสำหรับโหลดในโปรแกรม |
+|โต๊ะหน้าโลง(`table`)| [Tender coffee table Free 3D model - cgtrader](https://www.cgtrader.com/free-3d-models/interior/living-room/tender-coffee-table) |ใช้เป็นโมเดลและ texture ในฉาก|
+|กระถางธูป (`incense`)|[vase set of vases with incense sticks free 3D model - cgtrader](https://www.cgtrader.com/items/3727792/download-page)|ใช้เป็นโมเดลและ texture ในฉาก|
+|ที่ตั้งเทียน| (`candle1`, `candle2`) [Candle holder with animated lit candle free low-poly 3d model - cgtrader](https://www.cgtrader.com/items/3664014/download-page) |ใช้เป็นโมเดลและ texture ในฉาก|
 | แมวดำ (`cat_black`) | [An Animated Cat — Sketchfab](https://sketchfab.com/3d-models/an-animated-cat-aec25699660043a29595f9572149d1e8) | โมเดลแมวดำกำลังนั่งเลียเท้าบนอาสนะ |
 | แมววิเชียรมาศ Fred (`cat_fred`) | [Fred - The Cat — Sketchfab](https://sketchfab.com/3d-models/fred-the-cat-d27ca4d3fdd44fc49b5bb3efd19c9a06) | โมเดลแมววิเชียรมาศนั่งหันหน้าเข้าหากล้อง |
 | แมวอเมริกันช็อตแฮร์ (`cat_american`) | [Cat in Motion 3d model free — iRahulRajput](https://sketchfab.com/3d-models/cat-in-motion-3d-model-free-baa1120483c844e6bce9744f3f868c63) | โมเดลแมวอเมริกันช็อตแฮร์ยืนหันหน้าเข้าหาโต๊ะหน้าโลง |

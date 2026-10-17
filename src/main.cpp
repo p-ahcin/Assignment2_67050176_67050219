@@ -48,8 +48,8 @@ const glm::vec3 candlePositions[CANDLE_LIGHT_COUNT] = {
     glm::vec3(46.415f, 20.15f, 52.902f)  // second altar candle
 };
 const glm::vec3 candleColor(1.0f, 0.65f, 0.32f);
-const float candleStrengths[CANDLE_LIGHT_COUNT] = {5.0f, 5.0f, 4.0f, 4.0f};
-const float ambientStrength = 0.12f;
+const float candleStrengths[CANDLE_LIGHT_COUNT] = {7.0f, 7.0f, 5.5f, 5.5f};
+const float ambientStrength = 0.45f;
 const float attenuationLinear = 0.07f;
 const float attenuationQuadratic = 0.017f;
 const float shadowFarPlane = 180.0f;
