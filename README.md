@@ -177,7 +177,7 @@ Assignment2_67050176_67050219/
 | ฉากงานศพ | [Thai funeral — 3D Warehouse](https://3dwarehouse.sketchup.com/model/a9b1499b-c792-4c1d-adc0-c24abc45ef78/Thai-funeral) | ฉากและองค์ประกอบงานศพ เตรียมแยกเป็นกลุ่มสำหรับโหลดในโปรแกรม |
 |โต๊ะหน้าโลง(`table`)| [Tender coffee table Free 3D model - cgtrader](https://www.cgtrader.com/free-3d-models/interior/living-room/tender-coffee-table) |โมเดลโต๊ะใช้วางกระถางธูปและเทียนหน้าโลงศพ|
 |กระถางธูป (`incense`)|[vase set of vases with incense sticks free 3D model - cgtrader](https://www.cgtrader.com/items/3727792/download-page)|โมเดลกระถางธูปที่บรรจุธูป|
-|ที่ตั้งเทียน| (`candle1`, `candle2`) [Candle holder with animated lit candle free low-poly 3d model - cgtrader](https://www.cgtrader.com/items/3664014/download-page) |โมเดลที่วางเทียนและเทียน|
+|ที่ตั้งเทียน (`candle1`, `candle2`)|[Candle holder with animated lit candle free low-poly 3d model - cgtrader](https://www.cgtrader.com/items/3664014/download-page) |โมเดลที่วางเทียนและเทียน|
 | แมวดำ (`cat_black`) | [An Animated Cat — Sketchfab](https://sketchfab.com/3d-models/an-animated-cat-aec25699660043a29595f9572149d1e8) | โมเดลแมวดำกำลังนั่งเลียเท้าบนอาสนะ |
 | แมววิเชียรมาศ Fred (`cat_fred`) | [Fred - The Cat — Sketchfab](https://sketchfab.com/3d-models/fred-the-cat-d27ca4d3fdd44fc49b5bb3efd19c9a06) | โมเดลแมววิเชียรมาศนั่งหันหน้าเข้าหากล้อง |
 | แมวอเมริกันช็อตแฮร์ (`cat_american`) | [Cat in Motion 3d model free — iRahulRajput](https://sketchfab.com/3d-models/cat-in-motion-3d-model-free-baa1120483c844e6bce9744f3f868c63) | โมเดลแมวอเมริกันช็อตแฮร์ยืนหันหน้าเข้าหาโต๊ะหน้าโลง |
