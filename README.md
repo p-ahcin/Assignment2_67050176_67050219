@@ -175,9 +175,9 @@ Assignment2_67050176_67050219/
 | องค์ประกอบ | โมเดลและแหล่งดาวน์โหลด | การนำมาใช้ |
 |---|---|---|
 | ฉากงานศพ | [Thai funeral — 3D Warehouse](https://3dwarehouse.sketchup.com/model/a9b1499b-c792-4c1d-adc0-c24abc45ef78/Thai-funeral) | ฉากและองค์ประกอบงานศพ เตรียมแยกเป็นกลุ่มสำหรับโหลดในโปรแกรม |
-| แมวดำ (`cat_black`) | [An Animated Cat — Sketchfab](https://sketchfab.com/3d-models/an-animated-cat-aec25699660043a29595f9572149d1e8) | ใช้เป็นโมเดลท่านิ่งในฉาก |
-| แมววิเชียรมาศ Fred (`cat_fred`) | [Fred - The Cat — Sketchfab](https://sketchfab.com/3d-models/fred-the-cat-d27ca4d3fdd44fc49b5bb3efd19c9a06) | ใช้โมเดลและ texture ของ Fred ในฉาก |
-| แมวอเมริกันช็อตแฮร์ (`cat_american`) | [Cat in Motion 3d model free — iRahulRajput](https://sketchfab.com/3d-models/cat-in-motion-3d-model-free-baa1120483c844e6bce9744f3f868c63) | ใช้เป็นโมเดลท่านิ่งในฉาก |
+| แมวดำ (`cat_black`) | [An Animated Cat — Sketchfab](https://sketchfab.com/3d-models/an-animated-cat-aec25699660043a29595f9572149d1e8) | โมเดลแมวดำกำลังนั่งเลียเท้าบนอาสนะ |
+| แมววิเชียรมาศ Fred (`cat_fred`) | [Fred - The Cat — Sketchfab](https://sketchfab.com/3d-models/fred-the-cat-d27ca4d3fdd44fc49b5bb3efd19c9a06) | โมเดลแมววิเชียรมาศนั่งหันหน้าเข้าหากล้อง |
+| แมวอเมริกันช็อตแฮร์ (`cat_american`) | [Cat in Motion 3d model free — iRahulRajput](https://sketchfab.com/3d-models/cat-in-motion-3d-model-free-baa1120483c844e6bce9744f3f868c63) | โมเดลแมวอเมริกันช็อตแฮร์ยืนหันหน้าเข้าหาโต๊ะหน้าโลง |
 
 
 Texture สีที่โปรแกรมใช้มาจากชุดโมเดลที่เตรียมไว้ บางส่วนใช้สีวัสดุแทนภาพ ส่วนภาพแรงบันดาลใจเพิ่มเติมยังไม่ได้ระบุแหล่งแยกจากรายการโมเดลข้างต้น
