@@ -75,10 +75,14 @@ int Window::initialise()
     glfwGetFramebufferSize(mainWindow, &bufferWidth, &bufferHeight);
     glViewport(0, 0, bufferWidth, bufferHeight);
 
-    // Keep the viewport correct on window resize and high-DPI displays.
-    glfwSetFramebufferSizeCallback(mainWindow, [](GLFWwindow*, int newWidth, int newHeight)
+    // Keep the cached framebuffer size current after resize/minimize/restore.
+    // The render loop applies the viewport only when the window is drawable.
+    glfwSetWindowUserPointer(mainWindow, this);
+    glfwSetFramebufferSizeCallback(mainWindow, [](GLFWwindow* handle, int newWidth, int newHeight)
     {
-        glViewport(0, 0, newWidth, newHeight);
+        Window* window = static_cast<Window*>(glfwGetWindowUserPointer(handle));
+        window->bufferWidth = newWidth;
+        window->bufferHeight = newHeight;
     });
 
     return 0;

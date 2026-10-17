@@ -1,6 +1,6 @@
 {
-  "source": "../../Blender/FutureMe.blend",
-  "optimized_scene": "../../Blender/FutureMe_optimized.blend",
+  "source": "../Blender/FutureMe.blend",
+  "optimized_scene": "../Blender/FutureMe_optimized.blend",
   "axes": "Blender (x,y,z) -> OBJ (x,z,-y), scale 1; use identity model matrix",
   "settings": {
     "selected_objects": true,
@@ -6334,7 +6334,7 @@
     {
       "name": "cat_american",
       "source_collection": "American Cat",
-      "source_blend": "../../Blender/FutureMe.blend",
+      "source_blend": "../Blender/FutureMe.blend",
       "original_triangles": 19999,
       "export_triangles": 19999,
       "parts": [
@@ -6398,7 +6398,7 @@
     {
       "name": "cat_black",
       "source_collection": "Black Cat",
-      "source_blend": "../../Blender/FutureMe.blend",
+      "source_blend": "../Blender/FutureMe.blend",
       "original_triangles": 7372,
       "export_triangles": 7372,
       "parts": [
@@ -6560,7 +6560,7 @@
     {
       "name": "cat_fred",
       "source_collection": "Fred Cat",
-      "source_blend": "../../Blender/FutureMe.blend",
+      "source_blend": "../Blender/FutureMe.blend",
       "original_triangles": 180528,
       "export_triangles": 180528,
       "parts": [

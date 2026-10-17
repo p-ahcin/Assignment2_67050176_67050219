@@ -26,3 +26,7 @@ CMakeUserPresets.json
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local agent skills used for documentation
+/.agents/
+/skills-lock.json

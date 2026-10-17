@@ -31,7 +31,7 @@ CMake จะค้นหา vcpkg ที่ตำแหน่งนี้ให�
 
 ### Build และ run ด้วย VS Code
 
-1. เปิดโฟลเดอร์ **OpenGLStarter** ซึ่งมี `CMakeLists.txt` โดยตรง
+1. เปิดโฟลเดอร์ **Assignment2_67050176_67050219** ซึ่งมี `CMakeLists.txt` โดยตรง
 2. ใช้ **CMake: Select Configure Preset** เลือก **Windows MSVC (Visual Studio 2026)** หรือรุ่น 2022 ให้ตรงกับเครื่อง
 3. ใช้ **CMake: Configure** แล้วกด **F7** เพื่อ build
 4. เลือก target `OpenGLStarter` และใช้ **CMake: Run Without Debugging** หรือ **F5** เพื่อเริ่ม debug ด้วย configuration ของ Windows
@@ -41,13 +41,15 @@ CMake จะค้นหา vcpkg ที่ตำแหน่งนี้ให�
 
 ### Build และ run ด้วย PowerShell
 
-รันคำสั่งต่อไปนี้จากโฟลเดอร์ `OpenGLStarter` โดยต้องเรียก `cmake` ได้จาก Terminal:
+รันคำสั่งต่อไปนี้จากราก repository `Assignment2_67050176_67050219` โดยต้องเรียก `cmake` ได้จาก Terminal:
 
 ```powershell
 cmake --preset win-msvc-2026
 cmake --build --preset build-win-2026-debug
 & ".\build\win-msvc-2026\Debug\OpenGLStarter.exe"
 ```
+
+ชื่อ target และ executable ยังคงเป็น `OpenGLStarter` ตาม CMake แม้ไม่มีโฟลเดอร์ OpenGLStarter ซ้อนแล้ว
 
 สำหรับ Visual Studio 2022 ใช้ `win-msvc-2022`, `build-win-2022-debug` และ executable ใน `build/win-msvc-2022/Debug/` แทน ส่วน Release ใช้ build preset `build-win-2026-release` และ executable ในโฟลเดอร์ `Release/`
 
@@ -71,31 +73,29 @@ cmake --build --preset build-win-2026-debug
 
 ## โครงสร้างไฟล์
 
-โค้ดและทรัพยากรสำหรับรันอยู่ในโฟลเดอร์ `OpenGLStarter/` ของ repository นี้ เส้นทางใน README อ้างจากโฟลเดอร์นี้:
+โค้ดและทรัพยากรสำหรับรันอยู่ที่ราก repository เส้นทางใน README อ้างจากตำแหน่งเดียวกับไฟล์นี้:
 
 ```text
 Assignment2_67050176_67050219/
-└── OpenGLStarter/
-    ├── README.md
-    ├── src/
-    │   ├── main.cpp                 # โหลดฉาก กล้อง แสง และลำดับการวาด
-    │   ├── ProjectPaths.h.in        # แม่แบบตำแหน่ง assets สำหรับ CMake
-    │   └── Libs/                    # Mesh, Shader และ Window
-    ├── Shaders/
-    │   ├── shader.vert              # vertex shader หลัก
-    │   ├── shader.frag              # texture แสง และเงาของฉาก
-    │   ├── depthShader.vert         # vertex shader สำหรับรอบเงา
-    │   ├── depthShader.frag         # บันทึกระยะจากแสงลง depth cubemap
-    │   └── bgShader.*, lightShader.* # ตัวอย่างเดิมที่ไม่ได้เรียกใช้ปัจจุบัน
-    ├── Models/
-    │   ├── <ชื่อกลุ่ม>/             # OBJ และ MTL ของแต่ละองค์ประกอบ
-    │   └── scene_manifest.json      # ข้อมูล export ไม่ได้อ่านตอนรัน
-    ├── Textures/<ชื่อกลุ่ม>/        # ภาพประกอบของแต่ละองค์ประกอบ
-    ├── .vscode/                    # การตั้งค่า VS Code และ debugger
-    ├── .gitignore
-    ├── CMakeLists.txt
-    ├── CMakePresets.json
-    └── vcpkg.json
+├── README.md
+├── .github/workflows/build.yml  # build อัตโนมัติบน GitHub Actions
+├── .vscode/                    # การตั้งค่า VS Code และ debugger
+├── .gitignore
+├── src/
+│   ├── main.cpp                # โหลดฉาก กล้อง แสง และลำดับการวาด
+│   ├── ProjectPaths.h.in       # แม่แบบตำแหน่ง assets สำหรับ CMake
+│   └── Libs/                   # Mesh, Shader และ Window
+├── Shaders/
+│   ├── shader.vert / shader.frag
+│   ├── depthShader.vert / depthShader.frag
+│   └── bgShader.*, lightShader.* # ตัวอย่างเดิมที่ไม่ได้เรียกใช้ปัจจุบัน
+├── Models/
+│   ├── <ชื่อกลุ่ม>/            # OBJ และ MTL ของแต่ละองค์ประกอบ
+│   └── scene_manifest.json     # ข้อมูล export ไม่ได้อ่านตอนรัน
+├── Textures/<ชื่อกลุ่ม>/       # ภาพประกอบของแต่ละองค์ประกอบ
+├── CMakeLists.txt
+├── CMakePresets.json
+└── vcpkg.json
 ```
 
 แผนผังแสดงไฟล์หลักที่ใช้พัฒนาและรันโปรเจกต์ ส่วน `build/` สร้างขึ้นเมื่อ configure/build และถูกละเว้นจาก Git ไฟล์ Blender ที่ใช้เตรียมฉากเก็บแยกจาก repository; ผู้ที่ clone สามารถ build และรันจาก OBJ/MTL, texture และ shaders ที่ให้มาได้โดยไม่ต้องมี Blender
@@ -148,7 +148,7 @@ Assignment2_67050176_67050219/
 
 ## เมื่อพบปัญหา
 
-- **ไม่พบเมนู CMake หรือ preset:** เปิดโฟลเดอร์ OpenGLStarter โดยตรง ตรวจว่าส่วนขยาย CMake Tools เปิดใช้งาน แล้วดู `cmake.cmakePath`
+- **ไม่พบเมนู CMake หรือ preset:** เปิดโฟลเดอร์ Assignment2_67050176_67050219 โดยตรง ตรวจว่าส่วนขยาย CMake Tools เปิดใช้งาน แล้วดู `cmake.cmakePath`
 - **ไม่พบ vcpkg toolchain:** ตรวจตำแหน่งติดตั้งหรือ `VCPKG_ROOT` แล้ว configure ใหม่
 - **โหลดโมเดล/texture ไม่ได้:** อ่านเส้นทางที่แจ้งใน Terminal ตรวจไฟล์ OBJ/MTL ชื่อคู่กันและเส้นทาง `map_Kd` / `map_d` ซึ่งอ้างจากตำแหน่ง MTL
 - **ภาพมืดบริเวณไกลเทียน:** ตรวจค่าความแรงไฟ attenuation และ ambient ใน main.cpp

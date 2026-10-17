@@ -304,13 +304,20 @@ bool CreateScene()
     return true;
 }
 
-void UpdateMouseLook(Window &window)
+void UpdateMouseLook(Window &window, bool resetMouse = false)
 {
     double mouseX, mouseY;
     glfwGetCursorPos(window.getWindow(), &mouseX, &mouseY);
 
     static double lastX = mouseX;
     static double lastY = mouseY;
+
+    if (resetMouse)
+    {
+        lastX = mouseX;
+        lastY = mouseY;
+        return;
+    }
 
     float xOffset = static_cast<float> (mouseX - lastX);
     float yOffset = static_cast<float> (mouseY - lastY);
@@ -479,13 +486,6 @@ int main()
         return 1;
     }
 
-    glm::mat4 projection = glm::perspective(
-        glm::radians(25.0f),
-        (GLfloat)mainWindow.getBufferWidth() / (GLfloat)mainWindow.getBufferHeight(),
-        0.1f,
-        600.0f
-    );
-
     const glm::vec3 cameraTarget(-5.28f, 16.0f, 71.90f);
     glm::vec3 cameraDirection = glm::normalize(cameraTarget - cameraPos);
 
@@ -504,15 +504,44 @@ int main()
         return 1;
     }
     lastTime = static_cast<float>(glfwGetTime());
+    bool resetMouse = true;
 
     while (!mainWindow.getShouldClose())
     {
+        glfwPollEvents();
+        if (mainWindow.getShouldClose())
+            break;
+
+        // Keep processing restore/close events without rendering a minimized window.
+        const int bufferWidth = mainWindow.getBufferWidth();
+        const int bufferHeight = mainWindow.getBufferHeight();
+        if (glfwGetWindowAttrib(mainWindow.getWindow(), GLFW_ICONIFIED) ||
+            bufferWidth <= 0 || bufferHeight <= 0)
+        {
+            resetMouse = true;
+            glfwWaitEventsTimeout(0.1);
+            lastTime = static_cast<float>(glfwGetTime());
+            continue;
+        }
+
         float currentTime = static_cast<float> (glfwGetTime());
-        float deltaTime = currentTime - lastTime;
+        float deltaTime = resetMouse ? 0.0f : currentTime - lastTime;
         lastTime = currentTime;
 
-        glfwPollEvents();
-        UpdateMouseLook(mainWindow);
+        if (glfwGetWindowAttrib(mainWindow.getWindow(), GLFW_FOCUSED))
+        {
+            UpdateMouseLook(mainWindow, resetMouse);
+            resetMouse = false;
+        }
+        else
+            resetMouse = true;
+
+        glm::mat4 projection = glm::perspective(
+            glm::radians(25.0f),
+            static_cast<float>(bufferWidth) / static_cast<float>(bufferHeight),
+            0.1f,
+            600.0f
+        );
 
         float moveSpeed = 50.0f;
         if (glfwGetKey(mainWindow.getWindow(), GLFW_KEY_W) == GLFW_PRESS)
@@ -556,7 +585,7 @@ int main()
         view = glm::lookAt(cameraPos, cameraPos + cameraDirection, cameraUp);
 
         // Color pass: the floor and objects now receive the same four candle lights.
-        glViewport(0, 0, mainWindow.getBufferWidth(), mainWindow.getBufferHeight());
+        glViewport(0, 0, bufferWidth, bufferHeight);
         glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
